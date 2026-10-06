@@ -1,0 +1,31 @@
+# Gradle — artefatos locais (regenerados com ./gradlew build)
+.gradle/
+build/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# Artefatos locais (não são código do projeto)
+backups/
+dist/
+
+# Execução e runtime do Minecraft (recriado pelo wrapper; não subir)
+run/
+
+# Preview e evidências visuais (regeneráveis; não são fonte do mod)
+preview/
+
+# Caches do Python (ferramentas)
+**/__pycache__/

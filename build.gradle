@@ -1,0 +1,100 @@
+plugins {
+    // 26.1+ usa o plugin loom SEM remapping (jogo nao-ofuscado); nao existe linha de mappings.
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
+    id 'java'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+// v1.2.70: o SNC Energies NÃO é dependência de build nem de runtime — a
+// integração elétrica é por reflexão (contrato do PROGRESSAO.md deles). O
+// jar só entra no CLASSPATH do source set de gametests (criado pelo Loom
+// com createSourceSet=true) pra validar a integração REAL (gerador deles
+// alimentando a nossa rede) — runtime de produção fica limpo.
+afterEvaluate {
+    if (sourceSets.findByName('gametest') != null && providers.gradleProperty('sncEnergiesTests').orElse('true').get().toBoolean()) {
+        sourceSets.gametest.compileClasspath += files("../mods/snc-energies-0.8.0.jar")
+        sourceSets.gametest.runtimeClasspath += files("../mods/snc-energies-0.8.0.jar")
+    }
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version
+    }
+}
+
+// Valida worldgen ANTES de empacotar: um JSON com referencia orfa (ex. processors
+// "minecraft:none") derruba o registry no boot e TRAVA a criacao de mundo.
+tasks.register('validateWorldgen', Exec) {
+    group = 'verification'
+    description = 'Valida JSONs de worldgen + NBT do mod contra o jar vanilla.'
+    workingDir = projectDir
+    def py = org.gradle.internal.os.OperatingSystem.current().isWindows() ? 'python' : 'python3'
+    commandLine py, 'tools/validate_worldgen.py'
+}
+// roda junto com check e build (e falha o build se achar erro)
+tasks.named('check') { dependsOn validateWorldgen }
+tasks.matching { it.name in ['build', 'remapJar'] }.configureEach { dependsOn validateWorldgen }
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+    it.options.encoding = 'UTF-8'
+}
+
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'intoxicantes-commerce-tests'
+        enableGameTests = true
+        enableClientGameTests = true
+        clearRunDirectory = false
+    }
+}
+
+// Mesmo manifesto de testes; seleção e presença da integração são opções da execução.
+loom.runs.configureEach {
+    if (name.toLowerCase() == 'gametest' && providers.gradleProperty('sncGameTest').isPresent()) {
+        vmArg "-Dfabric-api.gametest.filter=${providers.gradleProperty('sncGameTest').get()}"
+    }
+}
+
+// Execução focada preserva todos os testes no manifesto fonte. Sem esta opção,
+// a suíte completa continua sendo o padrão; a seleção atua só nos recursos gerados.
+def sncClientTest = providers.gradleProperty('sncClientTest').orElse('all')
+tasks.named('processGametestResources', ProcessResources) {
+    inputs.property 'sncClientTest', sncClientTest
+    doLast {
+        if (sncClientTest.get() != 'all') {
+            def metadata = new File(destinationDir, 'fabric.mod.json')
+            def manifest = new groovy.json.JsonSlurper().parse(metadata)
+            def requested = sncClientTest.get()
+            def selected = manifest.entrypoints['fabric-client-gametest'].findAll {
+                it == requested || it.tokenize('.').last() == requested
+            }
+            if (selected.isEmpty()) {
+                throw new GradleException("ClientGameTest não registrado: ${requested}")
+            }
+            manifest.entrypoints['fabric-client-gametest'] = selected
+            metadata.setText(groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(manifest)), 'UTF-8')
+        }
+    }
+}
