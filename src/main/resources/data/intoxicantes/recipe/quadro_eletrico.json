@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "III",
+    "ICW",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "minecraft:copper_ingot",
+    "W": "intoxicantes:cabo_cobre_2_5mm"
+  },
+  "result": {
+    "id": "intoxicantes:quadro_eletrico",
+    "count": 1
+  }
+}

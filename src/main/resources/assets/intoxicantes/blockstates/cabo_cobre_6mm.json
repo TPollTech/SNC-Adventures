@@ -1,0 +1,57 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_nucleo"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_north"
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_south"
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_east"
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_west"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_up"
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "intoxicantes:block/cabo_cobre_braco_down"
+      }
+    }
+  ]
+}

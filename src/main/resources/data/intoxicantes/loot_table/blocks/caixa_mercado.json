@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:caixa_mercado"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "intoxicantes:caixa_mercado",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      ],
+      "random_sequence": "intoxicantes:blocks/caixa_mercado"
+    }
+  ]
+}

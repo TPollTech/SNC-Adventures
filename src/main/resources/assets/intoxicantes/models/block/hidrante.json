@@ -1,0 +1,83 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "intoxicantes:block/hidrante",
+    "corpo": "intoxicantes:block/hidrante",
+    "tampa": "intoxicantes:block/hidrante_topo",
+    "base": "intoxicantes:block/hidrante_base"
+  },
+  "elements": [
+    { "from": [3, 0, 3], "to": [13, 3, 13],
+      "faces": {
+        "down":  { "texture": "#base", "cullface": "down" },
+        "up":    { "texture": "#base" },
+        "north": { "texture": "#base" },
+        "south": { "texture": "#base" },
+        "west":  { "texture": "#base" },
+        "east":  { "texture": "#base" }
+      } },
+    { "from": [4, 3, 4], "to": [12, 12, 12],
+      "faces": {
+        "down":  { "texture": "#corpo" },
+        "up":    { "texture": "#corpo" },
+        "north": { "texture": "#corpo" },
+        "south": { "texture": "#corpo" },
+        "west":  { "texture": "#corpo" },
+        "east":  { "texture": "#corpo" }
+      } },
+    { "from": [2, 5, 7], "to": [4, 8, 9],
+      "faces": {
+        "down":  { "texture": "#corpo" },
+        "up":    { "texture": "#corpo" },
+        "north": { "texture": "#corpo" },
+        "south": { "texture": "#corpo" },
+        "west":  { "texture": "#corpo" },
+        "east":  { "texture": "#corpo" }
+      } },
+    { "from": [12, 5, 7], "to": [14, 8, 9],
+      "faces": {
+        "down":  { "texture": "#corpo" },
+        "up":    { "texture": "#corpo" },
+        "north": { "texture": "#corpo" },
+        "south": { "texture": "#corpo" },
+        "west":  { "texture": "#corpo" },
+        "east":  { "texture": "#corpo" }
+      } },
+    { "from": [7, 5, 2], "to": [9, 8, 4],
+      "faces": {
+        "down":  { "texture": "#corpo" },
+        "up":    { "texture": "#corpo" },
+        "north": { "texture": "#corpo" },
+        "south": { "texture": "#corpo" },
+        "west":  { "texture": "#corpo" },
+        "east":  { "texture": "#corpo" }
+      } },
+    { "from": [7, 5, 12], "to": [9, 8, 14],
+      "faces": {
+        "down":  { "texture": "#corpo" },
+        "up":    { "texture": "#corpo" },
+        "north": { "texture": "#corpo" },
+        "south": { "texture": "#corpo" },
+        "west":  { "texture": "#corpo" },
+        "east":  { "texture": "#corpo" }
+      } },
+    { "from": [5, 12, 5], "to": [11, 14, 11],
+      "faces": {
+        "down":  { "texture": "#tampa" },
+        "up":    { "texture": "#tampa" },
+        "north": { "texture": "#tampa" },
+        "south": { "texture": "#tampa" },
+        "west":  { "texture": "#tampa" },
+        "east":  { "texture": "#tampa" }
+      } },
+    { "from": [6, 14, 6], "to": [10, 15, 10],
+      "faces": {
+        "down":  { "texture": "#tampa" },
+        "up":    { "texture": "#tampa" },
+        "north": { "texture": "#tampa" },
+        "south": { "texture": "#tampa" },
+        "west":  { "texture": "#tampa" },
+        "east":  { "texture": "#tampa" }
+      } }
+  ]
+}

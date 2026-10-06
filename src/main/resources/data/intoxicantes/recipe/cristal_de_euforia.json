@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:amethyst_shard",
+    "minecraft:pink_petals",
+    "minecraft:glowstone_dust"
+  ],
+  "result": { "id": "intoxicantes:cristal_de_euforia", "count": 1 }
+}

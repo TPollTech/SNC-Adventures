@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["PS", "P "],
+  "key": { "P": "intoxicantes:maconha_seda", "S": "minecraft:paper" },
+  "result": { "id": "intoxicantes:baseado", "count": 2 }
+}

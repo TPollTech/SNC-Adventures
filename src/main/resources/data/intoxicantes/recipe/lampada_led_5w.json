@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "G",
+    "T"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "T": "minecraft:torch"
+  },
+  "result": {
+    "id": "intoxicantes:lampada_led_5w",
+    "count": 1
+  }
+}

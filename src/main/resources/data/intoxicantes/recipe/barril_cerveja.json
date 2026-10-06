@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "APA",
+    "PSP",
+    "APA"
+  ],
+  "key": {
+    "A": "minecraft:iron_ingot",
+    "P": "minecraft:stripped_spruce_log",
+    "S": "intoxicantes:mosto_cerveja_lupulado"
+  },
+  "result": {
+    "id": "intoxicantes:barril_cerveja",
+    "count": 1
+  }
+}

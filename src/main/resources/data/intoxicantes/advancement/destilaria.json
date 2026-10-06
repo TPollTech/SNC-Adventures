@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "intoxicantes:cerveja"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.destilaria.title"
+    },
+    "description": {
+      "translate": "advancements.intoxicantes.destilaria.desc"
+    },
+    "background": "minecraft:textures/block/stripped_spruce_log.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "raiz": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

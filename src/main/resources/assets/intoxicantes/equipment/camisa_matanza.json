@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "intoxicantes:camisa_matanza"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "intoxicantes:camisa_matanza"
+      }
+    ]
+  }
+}

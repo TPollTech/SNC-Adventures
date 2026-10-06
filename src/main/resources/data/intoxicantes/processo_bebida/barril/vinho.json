@@ -1,0 +1,9 @@
+{
+  "bebida": "vinho",
+  "input": "intoxicantes:mosto_de_uva",
+  "qtdIn": 4,
+  "tempoFermentacaoSeg": 300,
+  "tempoMaturacaoSeg": 300,
+  "bebidaFinal": "intoxicantes:vinho",
+  "garrafas": 4
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["HB", "B "],
+  "key": { "H": "minecraft:honey_bottle", "B": "minecraft:glass_bottle" },
+  "result": { "id": "intoxicantes:hidromel", "count": 2 }
+}

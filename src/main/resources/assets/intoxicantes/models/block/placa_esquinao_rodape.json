@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "ped": "intoxicantes:block/placa_esquinao_rodape",
+    "post": "intoxicantes:block/placa_esquinao_coluna",
+    "particle": "intoxicantes:block/placa_esquinao_rodape"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#ped"
+        },
+        "south": {
+          "texture": "#ped"
+        },
+        "west": {
+          "texture": "#ped"
+        },
+        "east": {
+          "texture": "#ped"
+        },
+        "up": {
+          "texture": "#ped"
+        },
+        "down": {
+          "texture": "#ped"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        10,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#post"
+        },
+        "south": {
+          "texture": "#post"
+        },
+        "west": {
+          "texture": "#post"
+        },
+        "east": {
+          "texture": "#post"
+        },
+        "up": {
+          "texture": "#post"
+        },
+        "down": {
+          "texture": "#post"
+        }
+      }
+    }
+  ]
+}

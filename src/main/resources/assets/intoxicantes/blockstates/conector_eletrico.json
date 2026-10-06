@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "intoxicantes:block/conector_eletrico"
+    },
+    "facing=east": {
+      "model": "intoxicantes:block/conector_eletrico",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "intoxicantes:block/conector_eletrico",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "intoxicantes:block/conector_eletrico",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "intoxicantes:block/conector_eletrico",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "intoxicantes:block/conector_eletrico",
+      "x": 90
+    }
+  }
+}

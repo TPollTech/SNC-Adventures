@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "CI",
+    "IC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "I": "intoxicantes:cabo_cobre_2_5mm"
+  },
+  "result": {
+    "id": "intoxicantes:bobina_cobre_4mm",
+    "count": 2
+  }
+}

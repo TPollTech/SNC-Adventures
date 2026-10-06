@@ -1,0 +1,183 @@
+18516:
+2026-10-06 05:42:13
+Full thread dump OpenJDK 64-Bit Server VM (25.0.4.1+1-LTS mixed mode, sharing):
+
+Threads class SMR info:
+_java_thread_list=0x000002bbc7fe0710, length=15, elements={
+0x000002bbbe408c90, 0x000002bbbe4099a0, 0x000002bbbe40e4b0, 0x000002bbbe410080,
+0x000002bbbe410c40, 0x000002bbbe411930, 0x000002bbbe412820, 0x000002bbbe41d6f0,
+0x000002bbbe9ff6d0, 0x000002bbbea06ce0, 0x000002bbc4f78570, 0x000002bbc4f7eb00,
+0x000002bbc32abac0, 0x000002bbc7c35c70, 0x000002bbc7c354a0
+}
+
+"Reference Handler" #13 [26736] daemon prio=10 os_prio=2 cpu=0.00ms elapsed=492.20s tid=0x000002bbbe408c90 nid=26736 waiting on condition  [0x000000bd669ff000]
+   java.lang.Thread.State: RUNNABLE
+	at java.lang.ref.Reference.waitForReferencePendingList(java.base@25.0.4.1/Native Method)
+	at java.lang.ref.Reference.processPendingReferences(java.base@25.0.4.1/Reference.java:246)
+	at java.lang.ref.Reference$ReferenceHandler.run(java.base@25.0.4.1/Reference.java:208)
+
+"Finalizer" #14 [12484] daemon prio=8 os_prio=1 cpu=0.00ms elapsed=492.20s tid=0x000002bbbe4099a0 nid=12484 in Object.wait()  [0x000000bd66afe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.4.1/Native Method)
+	- waiting on <0x0000000701b1b440> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@25.0.4.1/Object.java:389)
+	at java.lang.Object.wait(java.base@25.0.4.1/Object.java:351)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@25.0.4.1/ReferenceQueue.java:137)
+	at java.lang.ref.ReferenceQueue.remove(java.base@25.0.4.1/ReferenceQueue.java:215)
+	- locked <0x0000000701b1b440> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.Finalizer$FinalizerThread.run(java.base@25.0.4.1/Finalizer.java:165)
+
+"Signal Dispatcher" #15 [5544] daemon prio=9 os_prio=2 cpu=0.00ms elapsed=492.20s tid=0x000002bbbe40e4b0 nid=5544 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" #16 [23964] daemon prio=5 os_prio=2 cpu=0.00ms elapsed=492.20s tid=0x000002bbbe410080 nid=23964 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Service Thread" #17 [22240] daemon prio=9 os_prio=0 cpu=31.25ms elapsed=492.20s tid=0x000002bbbe410c40 nid=22240 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Monitor Deflation Thread" #18 [22252] daemon prio=9 os_prio=0 cpu=15.62ms elapsed=492.20s tid=0x000002bbbe411930 nid=22252 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #19 [18836] daemon prio=9 os_prio=2 cpu=22156.25ms elapsed=492.20s tid=0x000002bbbe412820 nid=18836 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"C1 CompilerThread0" #21 [14944] daemon prio=9 os_prio=2 cpu=4656.25ms elapsed=492.20s tid=0x000002bbbe41d6f0 nid=14944 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+   No compile task
+
+"Notification Thread" #22 [10748] daemon prio=9 os_prio=0 cpu=0.00ms elapsed=492.08s tid=0x000002bbbe9ff6d0 nid=10748 runnable  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Common-Cleaner" #23 [2264] daemon prio=8 os_prio=1 cpu=0.00ms elapsed=492.08s tid=0x000002bbbea06ce0 nid=2264 in Object.wait()  [0x000000bd672fe000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.4.1/Native Method)
+	- waiting on <0x0000000701b1e660> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@25.0.4.1/Object.java:389)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@25.0.4.1/ReferenceQueue.java:123)
+	at java.lang.ref.ReferenceQueue.remove(java.base@25.0.4.1/ReferenceQueue.java:201)
+	- locked <0x0000000701b1e660> (a java.lang.ref.ReferenceQueue$Lock)
+	at jdk.internal.ref.CleanerImpl.run(java.base@25.0.4.1/CleanerImpl.java:146)
+	at java.lang.Thread.runWith(java.base@25.0.4.1/Thread.java:1487)
+	at java.lang.Thread.run(java.base@25.0.4.1/Thread.java:1474)
+	at jdk.internal.misc.InnocuousThread.run(java.base@25.0.4.1/InnocuousThread.java:148)
+
+"JNA Cleaner" #42 [10232] daemon prio=5 os_prio=0 cpu=0.00ms elapsed=486.10s tid=0x000002bbc4f78570 nid=10232 in Object.wait()  [0x000000bd67aff000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait0(java.base@25.0.4.1/Native Method)
+	- waiting on <0x0000000703a00078> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.Object.wait(java.base@25.0.4.1/Object.java:389)
+	at java.lang.ref.ReferenceQueue.remove0(java.base@25.0.4.1/ReferenceQueue.java:123)
+	at java.lang.ref.ReferenceQueue.remove(java.base@25.0.4.1/ReferenceQueue.java:201)
+	- locked <0x0000000703a00078> (a java.lang.ref.ReferenceQueue$Lock)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"Timer hack thread" #43 [9348] daemon prio=5 os_prio=0 cpu=0.00ms elapsed=470.21s tid=0x000002bbc4f7eb00 nid=9348 waiting on condition  [0x000000bd67eff000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleepNanos0(java.base@25.0.4.1/Native Method)
+	at java.lang.Thread.sleepNanos(java.base@25.0.4.1/Thread.java:509)
+	at java.lang.Thread.sleep(java.base@25.0.4.1/Thread.java:540)
+	at net.minecraft.util.Util$9.run(Util.java:1009)
+
+"Minecraft Services Discovery" #44 [20404] daemon prio=5 os_prio=0 cpu=375.00ms elapsed=469.82s tid=0x000002bbc32abac0 nid=20404 waiting on condition  [0x000000bd67fff000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@25.0.4.1/Native Method)
+	- parking to wait for  <0x000000070701e5b8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(java.base@25.0.4.1/LockSupport.java:271)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(java.base@25.0.4.1/AbstractQueuedSynchronizer.java:1803)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(java.base@25.0.4.1/ScheduledThreadPoolExecutor.java:1166)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(java.base@25.0.4.1/ScheduledThreadPoolExecutor.java:883)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(java.base@25.0.4.1/ThreadPoolExecutor.java:1016)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(java.base@25.0.4.1/ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(java.base@25.0.4.1/ThreadPoolExecutor.java:614)
+	at java.lang.Thread.runWith(java.base@25.0.4.1/Thread.java:1487)
+	at java.lang.Thread.run(java.base@25.0.4.1/Thread.java:1474)
+
+"Server thread" #45 [20892] prio=8 os_prio=1 cpu=9640.62ms elapsed=463.93s tid=0x000002bbc7c35c70 nid=20892 waiting on condition  [0x000000bd687fe000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at jdk.internal.misc.Unsafe.park(java.base@25.0.4.1/Native Method)
+	- parking to wait for  <0x00000007fe9b59a8> (a java.lang.String)
+	at java.util.concurrent.locks.LockSupport.parkNanos(java.base@25.0.4.1/LockSupport.java:271)
+	at net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:168)
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:158)
+	at net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:146)
+	at net.minecraft.world.level.Level.getChunk(Level.java:215)
+	at net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:150)
+	at net.minecraft.world.level.Level.getChunk(Level.java:210)
+	at net.minecraft.world.level.Level.getChunkAt(Level.java:205)
+	at net.minecraft.world.level.Level.blockEntityChanged(Level.java:745)
+	at net.minecraft.world.level.block.entity.BlockEntity.setChanged(BlockEntity.java:219)
+	at net.minecraft.world.level.block.entity.BlockEntity.setChanged(BlockEntity.java:214)
+	at com.intoxicantes.TomadaBlock$TomadaBlockEntity.setCircuito(TomadaBlock.java:153)
+	at com.intoxicantes.energia.EnergiaRedes.lambda$register$1(EnergiaRedes.java:49)
+	at com.intoxicantes.energia.EnergiaRedes$$Lambda/0x0000000004e31760.onChunkLoad(Unknown Source)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.lambda$static$1(ServerChunkEvents.java:45)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents$$Lambda/0x0000000004dab520.onChunkLoad(Unknown Source)
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.handler$zba000$fabric-lifecycle-events-v1$onChunkLoad(ChunkStatusTasks.java:548)
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks.lambda$full$0(ChunkStatusTasks.java:170)
+	at net.minecraft.world.level.chunk.status.ChunkStatusTasks$$Lambda/0x000000000513ad10.get(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(java.base@25.0.4.1/CompletableFuture.java:1789)
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:173)
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.doRunTask(ServerChunkCache.java:621)
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:147)
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:630)
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:156)
+	at net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:146)
+	at net.minecraft.world.level.Level.getChunk(Level.java:215)
+	at net.minecraft.world.level.LevelReader.getChunk(LevelReader.java:150)
+	at net.minecraft.world.level.Level.getChunk(Level.java:210)
+	at net.minecraft.world.level.Level.getChunkAt(Level.java:205)
+	at net.minecraft.world.level.Level.getBlockEntity(Level.java:559)
+	at com.intoxicantes.TomadaBlock$TomadaBlockEntity.energizar(TomadaBlock.java:178)
+	at com.intoxicantes.QuadroEletricoBlock$QuadroEletricoBlockEntity.desligarSaidas(QuadroEletricoBlock.java:533)
+	at com.intoxicantes.energia.EnergiaRedes.lambda$register$2(EnergiaRedes.java:61)
+	at com.intoxicantes.energia.EnergiaRedes$$Lambda/0x0000000004e31988.onChunkUnload(Unknown Source)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.lambda$static$5(ServerChunkEvents.java:74)
+	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents$$Lambda/0x0000000004dac620.onChunkUnload(Unknown Source)
+	at net.minecraft.server.level.ChunkMap.handler$zzp000$fabric-lifecycle-events-v1$onChunkUnload(ChunkMap.java:1431)
+	at net.minecraft.server.level.ChunkMap.lambda$scheduleUnload$0(ChunkMap.java:553)
+	at net.minecraft.server.level.ChunkMap$$Lambda/0x00000000052bbc78.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(java.base@25.0.4.1/CompletableFuture.java:808)
+	at java.util.concurrent.CompletableFuture$Completion.run(java.base@25.0.4.1/CompletableFuture.java:503)
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:502)
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:465)
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:322)
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:670)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:793)
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:310)
+	at net.minecraft.server.MinecraftServer$$Lambda/0x0000000004f5bba0.run(Unknown Source)
+	at java.lang.Thread.runWith(java.base@25.0.4.1/Thread.java:1487)
+	at java.lang.Thread.run(java.base@25.0.4.1/Thread.java:1474)
+
+"DestroyJavaVM" #55 [19780] prio=5 os_prio=0 cpu=14656.25ms elapsed=463.93s tid=0x000002bbc7c354a0 nid=19780 waiting on condition  [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"G1 Conc#1" os_prio=2 cpu=1593.75ms elapsed=486.84s tid=0x000002bbc3c2aff0 nid=1204 runnable  
+
+"GC Thread#5" os_prio=2 cpu=343.75ms elapsed=490.83s tid=0x000002bbc3c291c0 nid=19996 runnable  
+
+"GC Thread#1" os_prio=2 cpu=328.12ms elapsed=490.83s tid=0x000002bbc3c57740 nid=4360 runnable  
+
+"GC Thread#3" os_prio=2 cpu=312.50ms elapsed=490.83s tid=0x000002bbc3c57fa0 nid=22900 runnable  
+
+"GC Thread#4" os_prio=2 cpu=343.75ms elapsed=490.83s tid=0x000002bbc3c28d70 nid=19272 runnable  
+
+"GC Thread#2" os_prio=2 cpu=406.25ms elapsed=490.83s tid=0x000002bbc3c57b70 nid=8012 runnable  
+
+"VM Thread" os_prio=2 cpu=109.38ms elapsed=492.21s tid=0x000002bbbe3f85e0 nid=3796 runnable  
+
+"VM Periodic Task Thread" os_prio=2 cpu=31.25ms elapsed=492.22s tid=0x000002bbbe3e7f50 nid=24332 waiting on condition  
+
+"G1 Service" os_prio=2 cpu=15.62ms elapsed=492.23s tid=0x000002bbbe2b0c20 nid=10584 runnable  
+
+"G1 Refine#0" os_prio=2 cpu=515.62ms elapsed=492.23s tid=0x000002bbbe2b0360 nid=8168 runnable  
+
+"G1 Conc#0" os_prio=2 cpu=1609.38ms elapsed=492.23s tid=0x000002bb9f509fd0 nid=8604 runnable  
+
+"G1 Main Marker" os_prio=2 cpu=0.00ms elapsed=492.23s tid=0x000002bb9f509430 nid=22816 runnable  
+
+"GC Thread#0" os_prio=2 cpu=281.25ms elapsed=492.23s tid=0x000002bb9f4ee620 nid=11128 runnable  
+
+JNI global refs: 35, weak refs: 45
+

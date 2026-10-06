@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PWP"
+  ],
+  "key": {
+    "P": "minecraft:stripped_spruce_log",
+    "I": "minecraft:iron_ingot",
+    "W": "minecraft:spruce_slab"
+  },
+  "result": {
+    "id": "intoxicantes:moenda_cana",
+    "count": 1
+  }
+}

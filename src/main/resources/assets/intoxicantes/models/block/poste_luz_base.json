@@ -1,0 +1,74 @@
+{
+  "textures": {
+    "ped": "intoxicantes:block/poste_ped",
+    "post": "intoxicantes:block/poste_luz",
+    "particle": "intoxicantes:block/poste_ped"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        6,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#ped"
+        },
+        "south": {
+          "texture": "#ped"
+        },
+        "west": {
+          "texture": "#ped"
+        },
+        "east": {
+          "texture": "#ped"
+        },
+        "up": {
+          "texture": "#ped"
+        },
+        "down": {
+          "texture": "#ped",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        6,
+        6,
+        6
+      ],
+      "to": [
+        10,
+        16,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#post"
+        },
+        "south": {
+          "texture": "#post"
+        },
+        "west": {
+          "texture": "#post"
+        },
+        "east": {
+          "texture": "#post"
+        },
+        "up": {
+          "texture": "#post"
+        },
+        "down": {
+          "texture": "#post"
+        }
+      }
+    }
+  ]
+}

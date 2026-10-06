@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:lupulo",
+    "minecraft:potion"
+  ],
+  "result": {
+    "id": "intoxicantes:cha_lupulo",
+    "count": 1
+  }
+}

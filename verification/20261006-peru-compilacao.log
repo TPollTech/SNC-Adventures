@@ -1,0 +1,45 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/enzop/.gradle/wrapper/dists/gradle-9.7.1-bin/1w1c7tv4s851m17nbqdsro2tv/gradle-9.7.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+> Configure project :
+Fabric Loom: 1.18.2
+
+> Task :compileJava
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\main\java\com\intoxicantes\PeruSystem.java:156: error: random has protected access in Level
+            double angulo = sl.random.nextDouble() * Math.PI * 2;
+                              ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\main\java\com\intoxicantes\PeruSystem.java:157: error: random has protected access in Level
+            double raio = c.peruDistanciaMinima + sl.random.nextDouble()
+                                                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+2 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/enzop/curseforge/minecraft/Instances/mod%20cet/intoxicantes-mod/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\main\java\com\intoxicantes\PeruSystem.java:156: error: random has protected access in Level
+              double angulo = sl.random.nextDouble() * Math.PI * 2;
+                                ^
+  C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\main\java\com\intoxicantes\PeruSystem.java:157: error: random has protected access in Level
+              double raio = c.peruDistanciaMinima + sl.random.nextDouble()
+                                                      ^
+  Note: Some input files use or override a deprecated API.
+  2 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 17s
+1 actionable task: 1 executed

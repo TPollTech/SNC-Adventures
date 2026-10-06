@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "intoxicantes:block/quadro_eletrico"
+    },
+    "facing=north,open=true": {
+      "model": "intoxicantes:block/quadro_eletrico"
+    },
+    "facing=south,open=false": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 180
+    },
+    "facing=south,open=true": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 180
+    },
+    "facing=east,open=false": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 90
+    },
+    "facing=east,open=true": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 90
+    },
+    "facing=west,open=false": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 270
+    },
+    "facing=west,open=true": {
+      "model": "intoxicantes:block/quadro_eletrico",
+      "y": 270
+    }
+  }
+}

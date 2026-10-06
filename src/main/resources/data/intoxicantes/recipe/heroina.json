@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:opio",
+    "intoxicantes:opio",
+    "minecraft:redstone",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "intoxicantes:heroina",
+    "count": 1
+  }
+}

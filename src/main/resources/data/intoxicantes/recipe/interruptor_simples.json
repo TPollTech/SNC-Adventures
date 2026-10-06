@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "C",
+    "B"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "B": "minecraft:stone_button"
+  },
+  "result": {
+    "id": "intoxicantes:interruptor_simples",
+    "count": 2
+  }
+}

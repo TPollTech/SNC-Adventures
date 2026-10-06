@@ -1,0 +1,484 @@
+{
+  "variants": {
+    "facing=north,parte=painel,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=painel,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=painel,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=painel,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=painel,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=painel,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=extensao,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=esquerda,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,parte=direita,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=painel,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=extensao,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=esquerda,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,parte=direita,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=painel,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=extensao,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=esquerda,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,parte=direita,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=painel,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=extensao,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=esquerda,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=rodape,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=rodape,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_rodape",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=coluna,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=coluna,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_coluna",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=topo,lit=true": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,parte=direita,nivel=topo,lit=false": {
+      "model": "intoxicantes:block/placa_esquinao_topo",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

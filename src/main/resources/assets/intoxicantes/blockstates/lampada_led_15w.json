@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "wattage=0,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=0,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=1,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=1,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=2,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=2,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=3,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=3,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=4,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=4,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=5,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=5,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=6,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=6,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=7,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=7,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=8,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=8,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=9,lit=true": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    },
+    "wattage=9,lit=false": {
+      "model": "intoxicantes:block/lampada_led_15w"
+    }
+  }
+}

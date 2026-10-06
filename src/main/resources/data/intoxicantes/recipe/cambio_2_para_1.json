@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:real"
+  ],
+  "result": {
+    "id": "intoxicantes:moeda_1",
+    "count": 2
+  }
+}

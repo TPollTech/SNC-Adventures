@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "atlasSize": 128,
+  "wall": 0.12,
+  "bevel": 0.18,
+  "symbols": {
+    "grain":["000010000","001010100","000111000","001010100","000111000","001010100","000111000","000010000","000010000"],
+    "grape":["000011000","000100000","001101100","001101100","011011010","011011010","001101100","000110000","000110000"],
+    "cane":["001001000","001001010","111111100","001001000","001001000","111111100","001001000","001001000","001001000"],
+    "honey":["001110000","010001000","010001000","001110000","000011100","000100010","000100010","000011100","000000000"],
+    "barrel":["001111100","011000110","111111111","110101011","110101011","110101011","111111111","011000110","001111100"],
+    "leaf":["000011110","001100010","010001010","010010010","010100100","001001000","001110000","010000000","100000000"],
+    "coconut":["000000000","001111100","010000010","111111111","110000011","011000110","001111100","000000000","000000000"],
+    "hops":["000010000","000111000","001010100","001111100","011010110","011111110","001010100","000111000","000010000"]
+  },
+  "bottles": [
+    {
+      "id":"cerveja", "name":"Cerveja", "label":["CERVEJA","PURO MALTE"], "symbol":"grain",
+      "description":"Long neck âmbar; tampa metálica frisada, rótulo de malte e aro de espuma.",
+      "palette":{"glass":"a9743b","edge":"946038","liquid":"d99127","cap":"c1bba7","label":"eeddb4","ink":"453425","gold":"b6914b","seal":"705027"},
+      "sections":[[0,0.35,4,4],[0.35,6.5,4.4,4.4],[6.5,7.2,4,4],[7.2,7.85,3.2,3.2],[7.85,8.45,2.4,2.4],[8.45,11.6,1.65,1.65]],
+      "liquidLevel":7.6,"labelY":2,"labelHeight":3.35,"labelWidth":2.85,
+      "cap":{"kind":"crown","y":11.55,"height":0.65,"width":2.2,"depth":2.2},"foam":true,"sealY":9.4
+    },
+    {
+      "id":"vinho", "name":"Vinho", "label":["VINHO","UVAS TINTAS"], "symbol":"grape",
+      "description":"Garrafa alta verde-escura; vinho rubi, ombros graduais e cápsula bordô sobre a rolha.",
+      "palette":{"glass":"769267","edge":"425b36","liquid":"821d37","cap":"6b2034","label":"ebdfc4","ink":"612c40","gold":"bc9c65","seal":"783044"},
+      "sections":[[0,0.4,4.35,4.35],[0.4,7.5,4.7,4.7],[7.5,8,4.3,4.3],[8,8.5,3.55,3.55],[8.5,9,2.7,2.7],[9,12.25,1.65,1.65]],
+      "liquidLevel":8.2,"labelY":2.05,"labelHeight":4,"labelWidth":3,
+      "cap":{"kind":"foil","y":11,"height":1.7,"width":1.95,"depth":1.95},"foam":false,"sealY":10.1
+    },
+    {
+      "id":"cachaca", "name":"Cachaça", "label":["CACHACA","CANA"], "symbol":"cane",
+      "description":"Vidro claro de corpo reto; destilado palha, detalhes de cana e tampa de rosca bronze.",
+      "palette":{"glass":"c0d6ca","edge":"8da99b","liquid":"e8d8a4","cap":"b48948","label":"eee4c8","ink":"4f6843","gold":"b68c48","seal":"688057"},
+      "sections":[[0,0.42,4,3.7],[0.42,7,4.3,4],[7,7.6,3.9,3.6],[7.6,8.2,3.1,2.9],[8.2,8.65,2.35,2.2],[8.65,11.15,1.7,1.7]],
+      "liquidLevel":7.8,"labelY":2.05,"labelHeight":3.65,"labelWidth":2.85,
+      "cap":{"kind":"screw","y":10.65,"height":1.2,"width":2.05,"depth":2.05},"foam":false,"sealY":9.5
+    },
+    {
+      "id":"hidromel", "name":"Hidromel", "label":["HIDROMEL","MEL"], "symbol":"honey",
+      "description":"Frasco baixo e largo, mel dourado, selo de cera e rolha com acabamento de cortiça.",
+      "palette":{"glass":"c0a462","edge":"987943","liquid":"e5a52d","cap":"98704d","label":"ead7a7","ink":"74472d","gold":"c89739","seal":"ae663d"},
+      "sections":[[0,0.4,4.8,4.2],[0.4,1,5.35,4.7],[1,5.7,5.6,4.9],[5.7,6.35,5.2,4.6],[6.35,7,4.3,3.8],[7,7.6,3.2,2.9],[7.6,9.15,2,1.9]],
+      "liquidLevel":6.5,"labelY":1.65,"labelHeight":3.1,"labelWidth":3.3,
+      "cap":{"kind":"cork","y":8.95,"height":1.4,"width":2.55,"depth":2.4},"foam":false,"sealY":8
+    },
+    {
+      "id":"rum", "name":"Rum", "label":["RUM","MATURADO"], "symbol":"barrel",
+      "description":"Garrafa quadrada de ombros largos; rum cobre, rolha escura e lacre vertical.",
+      "palette":{"glass":"ab8a62","edge":"80633e","liquid":"b66b28","cap":"594032","label":"dfc59a","ink":"513a2b","gold":"b58948","seal":"7c3426"},
+      "sections":[[0,0.5,5,4.2],[0.5,6.35,5.35,4.55],[6.35,6.9,4.8,4.05],[6.9,7.4,4.1,3.5],[7.4,7.9,3.3,2.9],[7.9,8.4,2.5,2.3],[8.4,10.5,1.85,1.85]],
+      "liquidLevel":7.15,"labelY":1.7,"labelHeight":3.6,"labelWidth":3.45,
+      "cap":{"kind":"cork","y":10.1,"height":1.25,"width":2.5,"depth":2.4},"foam":false,"sealY":9
+    },
+    {
+      "id":"suco_detox", "name":"Suco Detox", "label":["SUCO","DETOX"], "symbol":"leaf",
+      "description":"Suco verde com polpa; frasco largo de vidro claro e tampa de metal serrilhada.",
+      "palette":{"glass":"b4d7c7","edge":"86ab94","liquid":"6c983d","cap":"b99d59","label":"e7e5c9","ink":"476d36","gold":"b69b5b","seal":"6e904a"},
+      "sections":[[0,0.4,4.5,4.5],[0.4,6.5,4.9,4.9],[6.5,7.05,4.5,4.5],[7.05,7.55,3.9,3.9],[7.55,8.05,3.2,3.2],[8.05,9.6,2.6,2.6]],
+      "liquidLevel":7.25,"labelY":1.8,"labelHeight":3.4,"labelWidth":3.2,
+      "cap":{"kind":"screw","y":9.1,"height":1.15,"width":3.05,"depth":3.05},"foam":false,"sealY":8.2
+    },
+    {
+      "id":"agua_de_coco", "name":"Água de Coco", "label":["AGUA","DE COCO"], "symbol":"coconut",
+      "description":"Água de coco opalescente, vidro de tom frio, tampa marfim e símbolo de coco aberto.",
+      "palette":{"glass":"bad8d9","edge":"8aa9a7","liquid":"e1e4d1","cap":"dfdbc5","label":"e7e5d3","ink":"426b64","gold":"ae9a68","seal":"5d8d82"},
+      "sections":[[0,0.4,4.05,4.05],[0.4,7.2,4.4,4.4],[7.2,7.7,4.05,4.05],[7.7,8.2,3.5,3.5],[8.2,8.7,2.8,2.8],[8.7,10.65,2,2]],
+      "liquidLevel":7.7,"labelY":2.05,"labelHeight":3.8,"labelWidth":2.8,
+      "cap":{"kind":"screw","y":10.15,"height":1.15,"width":2.45,"depth":2.45},"foam":false,"sealY":9.1
+    },
+    {
+      "id":"cha_lupulo", "name":"Chá de Lúpulo", "label":["CHA","DE LUPULO"], "symbol":"hops",
+      "description":"Infusão âmbar-esverdeada em frasco de botica; tampa musgo e selo com lúpulo.",
+      "palette":{"glass":"afb48a","edge":"838760","liquid":"b4aa43","cap":"6b7151","label":"e3dec4","ink":"56603b","gold":"aa9458","seal":"727c4d"},
+      "sections":[[0,0.4,4.25,4],[0.4,6.75,4.6,4.35],[6.75,7.3,4.2,4],[7.3,7.85,3.45,3.3],[7.85,8.4,2.7,2.6],[8.4,10.3,2,1.95]],
+      "liquidLevel":7.2,"labelY":1.85,"labelHeight":3.6,"labelWidth":3,
+      "cap":{"kind":"screw","y":9.95,"height":1.15,"width":2.5,"depth":2.45},"foam":false,"sealY":8.9
+    }
+  ],
+  "intermediarios": [
+    {
+      "id":"caldo_de_cana", "name":"Caldo de Cana", "label":["CALDO","DE CANA"], "symbol":"cane",
+      "description":"Frasco de laboratório de bodega com o caldo doce da cana fresca — primeira etapa da cachaça.",
+      "palette":{"glass":"cddcc8","edge":"93a58e","liquid":"d9c36a","cap":"b0a48a","label":"e8dfc2","ink":"5c4a22","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"mosto_cana_fermentado", "name":"Mosto de Cana Fermentado", "label":["FERMENTADO","CANA"], "symbol":"cane",
+      "description":"O caldo borbulhou na dorna: caldo turvo e espumante, pronto pro alambique.",
+      "palette":{"glass":"cddcc8","edge":"93a58e","liquid":"c9a94f","cap":"b0a48a","label":"e8dfc2","ink":"5c4a22","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"melaco", "name":"Melaço", "label":["MELACO","CANA COZIDA"], "symbol":"cane",
+      "description":"Caldo de cana cozido até virar melaço — xarope denso e escuro, a alma do rum.",
+      "palette":{"glass":"c7bfa8","edge":"8f8873","liquid":"6e4520","cap":"8a7a5c","label":"e8dfc2","ink":"4a3518","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"mosto_rum_fermentado", "name":"Mosto de Rum Fermentado", "label":["MOSTO","RUM"], "symbol":"barrel",
+      "description":"O melaço fermentou na dorna: caldo pesado e doce-ácido esperando o alambique.",
+      "palette":{"glass":"c7bfa8","edge":"8f8873","liquid":"7d5a2c","cap":"8a7a5c","label":"e8dfc2","ink":"4a3518","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"mosto_de_uva", "name":"Mosto de Uva", "label":["MOSTO","DE UVA"], "symbol":"grape",
+      "description":"Uvas esmagadas na prensa: suco rubi turvo — o vinho começa aqui.",
+      "palette":{"glass":"cbd8c5","edge":"91a48b","liquid":"8a3a54","cap":"b0a48a","label":"e9dfc6","ink":"5e2b3a","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"mosto_cerveja_lupulado", "name":"Mosto Lupulado", "label":["MOSTO","LUPULADO"], "symbol":"grain",
+      "description":"Malte, água e lúpulo na fervura do caldeirão: o mosto doce-amargo da cerveja.",
+      "palette":{"glass":"d2d8c2","edge":"96a086","liquid":"c8963f","cap":"b0a48a","label":"e8dfc2","ink":"54431e","gold":"b6914b","seal":"705027"}
+    },
+    {
+      "id":"cachaca_jovem", "name":"Cachaça Jovem", "label":["CACHACA","JOVEM"], "symbol":"cane",
+      "description":"Recém-saída do alambique: cristalina, ardida, sem passagem por madeira.",
+      "palette":{"glass":"d0dcc9","edge":"95a68f","liquid":"e8e4c8","cap":"b0a48a","label":"eee4c8","ink":"4f6843","gold":"b68c48","seal":"688057"}
+    },
+    {
+      "id":"rum_jovem", "name":"Rum Jovem", "label":["RUM","JOVEM"], "symbol":"barrel",
+      "description":"Destilado do melaço, ainda claro: a madeira tostada do barril é que vai domar esse fogo.",
+      "palette":{"glass":"c7bfa8","edge":"8f8873","liquid":"c9995a","cap":"8a7a5c","label":"e8dfc2","ink":"4a3518","gold":"b58948","seal":"7c3426"}
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "intoxicantes:block/coqueiro_folhas"
+  }
+}

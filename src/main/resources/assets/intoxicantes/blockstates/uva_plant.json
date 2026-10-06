@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "age=0,uv_age=0": {
+      "model": "intoxicantes:block/uva_plant_stage1"
+    },
+    "age=0,uv_age=1": {
+      "model": "intoxicantes:block/uva_plant_stage1"
+    },
+    "age=0,uv_age=2": {
+      "model": "intoxicantes:block/uva_plant_stage1"
+    },
+    "age=0,uv_age=3": {
+      "model": "intoxicantes:block/uva_plant_stage1"
+    },
+    "age=1,uv_age=0": {
+      "model": "intoxicantes:block/uva_plant_stage2"
+    },
+    "age=1,uv_age=1": {
+      "model": "intoxicantes:block/uva_plant_stage2"
+    },
+    "age=1,uv_age=2": {
+      "model": "intoxicantes:block/uva_plant_stage2"
+    },
+    "age=1,uv_age=3": {
+      "model": "intoxicantes:block/uva_plant_stage2"
+    },
+    "age=2,uv_age=0": {
+      "model": "intoxicantes:block/uva_plant_stage3"
+    },
+    "age=2,uv_age=1": {
+      "model": "intoxicantes:block/uva_plant_stage3"
+    },
+    "age=2,uv_age=2": {
+      "model": "intoxicantes:block/uva_plant_stage3"
+    },
+    "age=2,uv_age=3": {
+      "model": "intoxicantes:block/uva_plant_stage3"
+    },
+    "age=3,uv_age=0": {
+      "model": "intoxicantes:block/uva_plant_stage4"
+    },
+    "age=3,uv_age=1": {
+      "model": "intoxicantes:block/uva_plant_stage4"
+    },
+    "age=3,uv_age=2": {
+      "model": "intoxicantes:block/uva_plant_stage4"
+    },
+    "age=3,uv_age=3": {
+      "model": "intoxicantes:block/uva_plant_stage4"
+    },
+    "age=4,uv_age=0": {
+      "model": "intoxicantes:block/uva_plant_dormant"
+    },
+    "age=4,uv_age=1": {
+      "model": "intoxicantes:block/uva_plant_dormant"
+    },
+    "age=4,uv_age=2": {
+      "model": "intoxicantes:block/uva_plant_dormant"
+    },
+    "age=4,uv_age=3": {
+      "model": "intoxicantes:block/uva_plant_ripe"
+    }
+  }
+}

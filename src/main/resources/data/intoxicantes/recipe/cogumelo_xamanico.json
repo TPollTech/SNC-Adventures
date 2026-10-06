@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_mushroom",
+    "minecraft:fermented_spider_eye"
+  ],
+  "result": { "id": "intoxicantes:cogumelo_xamanico", "count": 1 }
+}

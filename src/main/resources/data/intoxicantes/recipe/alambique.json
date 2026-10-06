@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CVC",
+    " B ",
+    "CFC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "V": "minecraft:glass_bottle",
+    "B": "minecraft:barrel",
+    "F": "minecraft:furnace"
+  },
+  "result": {
+    "id": "intoxicantes:alambique",
+    "count": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "facing=north,half=lower,fechada=false": {
+      "model": "intoxicantes:block/porta_grade",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,half=lower,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_fechada",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,half=upper,fechada=false": {
+      "model": "intoxicantes:block/porta_grade_topo",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,half=upper,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_topo_fechado",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,half=lower,fechada=false": {
+      "model": "intoxicantes:block/porta_grade",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,half=lower,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_fechada",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,half=upper,fechada=false": {
+      "model": "intoxicantes:block/porta_grade_topo",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,half=upper,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_topo_fechado",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,half=lower,fechada=false": {
+      "model": "intoxicantes:block/porta_grade",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,half=lower,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_fechada",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,half=upper,fechada=false": {
+      "model": "intoxicantes:block/porta_grade_topo",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,half=upper,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_topo_fechado",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,half=lower,fechada=false": {
+      "model": "intoxicantes:block/porta_grade",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,half=lower,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_fechada",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,half=upper,fechada=false": {
+      "model": "intoxicantes:block/porta_grade_topo",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,half=upper,fechada=true": {
+      "model": "intoxicantes:block/porta_grade_topo_fechado",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input": "intoxicantes:malte",
+  "qtdIn": 4,
+  "output": "intoxicantes:mosto_cerveja_lupulado",
+  "qtdOut": 4,
+  "secIn": "intoxicantes:lupulo",
+  "secQtd": 1,
+  "tempoSeg": 40
+}

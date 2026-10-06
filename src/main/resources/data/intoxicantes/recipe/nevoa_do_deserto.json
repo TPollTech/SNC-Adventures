@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:dead_bush",
+    "minecraft:gray_dye"
+  ],
+  "result": { "id": "intoxicantes:nevoa_do_deserto", "count": 2 }
+}

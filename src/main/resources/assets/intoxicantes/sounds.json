@@ -1,0 +1,42 @@
+{
+  "soco_d12": {
+    "category": "players",
+    "sounds": ["intoxicantes:escopeta_tiro"]
+  },
+  "voz_gago": {
+    "category": "neutral",
+    "sounds": ["intoxicantes:gago_voz"]
+  },
+  "zumbido_uv": {
+    "category": "blocks",
+    "sounds": ["intoxicantes:lampada_uv"]
+  },
+  "letreiro_virada": {
+    "category": "blocks",
+    "sounds": ["intoxicantes:letreiro_virada"]
+  },
+  "caixa_registradora": {
+    "category": "neutral",
+    "sounds": ["intoxicantes:caixa_registradora"]
+  },
+  "balim_acerto": {
+    "category": "players",
+    "sounds": ["intoxicantes:balim_acerto"]
+  },
+  "hic": {
+    "category": "players",
+    "sounds": ["intoxicantes:hic"]
+  },
+  "glup": {
+    "category": "players",
+    "sounds": ["intoxicantes:glup"]
+  },
+  "juca_riff": {
+    "category": "neutral",
+    "sounds": ["intoxicantes:juca_riff"]
+  },
+  "juca_voz": {
+    "category": "neutral",
+    "sounds": ["intoxicantes:juca_voz"]
+  }
+}

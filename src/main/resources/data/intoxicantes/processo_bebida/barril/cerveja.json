@@ -1,0 +1,9 @@
+{
+  "bebida": "cerveja",
+  "input": "intoxicantes:mosto_cerveja_lupulado",
+  "qtdIn": 4,
+  "tempoFermentacaoSeg": 480,
+  "tempoMaturacaoSeg": 120,
+  "bebidaFinal": "intoxicantes:cerveja",
+  "garrafas": 4
+}

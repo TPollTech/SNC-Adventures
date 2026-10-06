@@ -1,0 +1,29 @@
+{
+  "parent": "intoxicantes:destilaria",
+  "display": {
+    "icon": {
+      "id": "intoxicantes:uva"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.vinho.title"
+    },
+    "description": {
+      "translate": "advancements.intoxicantes.vinho.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tem_ingrediente": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "intoxicantes:uva"
+          }
+        ]
+      }
+    }
+  }
+}

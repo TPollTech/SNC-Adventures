@@ -1,0 +1,6 @@
+{
+  "input": "intoxicantes:mosto_rum_fermentado",
+  "qtdIn": 4,
+  "output": "intoxicantes:rum_jovem",
+  "qtdOut": 2
+}

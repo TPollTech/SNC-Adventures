@@ -1,0 +1,179 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/enzop/.gradle/wrapper/dists/gradle-9.7.1-bin/1w1c7tv4s851m17nbqdsro2tv/gradle-9.7.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+> Configure project :
+Fabric Loom: 1.18.2
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources UP-TO-DATE
+> Task :classes
+
+> Task :compileGametestJava
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasDecorativasGameTest.java:198: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:87: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:111: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:150: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:63: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:91: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:127: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:329: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:407: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:448: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:540: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:592: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+            var player = helper.makeMockServerPlayerInLevel();
+                               ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:641: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:779: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var atirador = helper.makeMockServerPlayerInLevel();
+                             ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:819: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var atirador = helper.makeMockServerPlayerInLevel();
+                             ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:1457: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var fregues = helper.makeMockServerPlayerInLevel();
+                            ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:1608: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2333: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2388: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2424: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2467: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2498: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:131: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:430: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var jogador = helper.makeMockServerPlayerInLevel();
+                            ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiaGameTest.java:162: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:34: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:74: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:105: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:135: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:155: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:181: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:246: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:320: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:335: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\LedPotenciaGameTest.java:79: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\LedPotenciaGameTest.java:116: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\ParreiraGameTest.java:77: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:106: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:296: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:476: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:583: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:30: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:58: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:80: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:107: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:143: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:169: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:201: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:227: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:253: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:285: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+51 warnings
+
+[Incubating] Problems report is available at: file:///C:/Users/enzop/curseforge/minecraft/Instances/mod%20cet/intoxicantes-mod/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 13s
+3 actionable tasks: 2 executed, 1 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.7.1/userguide/configuration_cache_enabling.html

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "intoxicantes",
+  "version": "${version}",
+  "name": "SNC Adventures Mod",
+  "description": "SNC Adventures Mod: mercado do Gago, economia em real, plantacoes, bebidas e substancias para diversao e roleplay na esquina do Minecraft.",
+  "authors": ["enzop"],
+  "license": "MIT",
+  "environment": "*",
+  "icon": "assets/intoxicantes/icon.png",
+  "entrypoints": {
+    "main": ["com.intoxicantes.IntoxicantesMod"],
+    "client": ["com.intoxicantes.IntoxicantesClient"]
+  },
+  "mixins": [
+    "intoxicantes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

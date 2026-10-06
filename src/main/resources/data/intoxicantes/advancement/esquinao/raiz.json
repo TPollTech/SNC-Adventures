@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancements.intoxicantes.raiz.description"
+    },
+    "icon": {
+      "id": "intoxicantes:cerveja"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.intoxicantes.raiz.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

@@ -1,0 +1,436 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/C:/Users/enzop/.gradle/wrapper/dists/gradle-9.7.1-bin/1w1c7tv4s851m17nbqdsro2tv/gradle-9.7.1/lib/native-platform-0.22-milestone-29.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+> Configure project :
+Fabric Loom: 1.18.2
+
+> Task :compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources
+> Task :classes
+
+> Task :compileGametestJava
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasDecorativasGameTest.java:198: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:87: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:111: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\BebidasVaziasGameTest.java:150: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:63: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:91: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:127: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:329: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:407: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:448: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:540: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:592: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+            var player = helper.makeMockServerPlayerInLevel();
+                               ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:641: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:779: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var atirador = helper.makeMockServerPlayerInLevel();
+                             ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:819: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var atirador = helper.makeMockServerPlayerInLevel();
+                             ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:1457: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var fregues = helper.makeMockServerPlayerInLevel();
+                            ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:1608: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2333: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2388: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2424: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2467: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\CommerceGameTest.java:2498: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:137: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:437: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var jogador = helper.makeMockServerPlayerInLevel();
+                            ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:631: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player=h.makeMockServerPlayerInLevel();
+                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:653: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = h.makeMockServerPlayerInLevel();
+                      ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:736: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = h.makeMockServerPlayerInLevel();
+                      ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:930: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+            var jogador = helper.makeMockServerPlayerInLevel();
+                                ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:991: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+            var jogador = helper.makeMockServerPlayerInLevel();
+                                ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\EletricidadeGameTest.java:1045: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = h.makeMockServerPlayerInLevel();
+                      ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiaGameTest.java:162: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:34: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:74: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:105: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:135: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:155: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:181: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:246: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:320: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\GuiMaquinasGameTest.java:335: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\LedPotenciaGameTest.java:79: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\LedPotenciaGameTest.java:116: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\ParreiraGameTest.java:77: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PeruGameTest.java:55: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var jogador = helper.makeMockServerPlayerInLevel();
+                            ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:106: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:296: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        var player = helper.makeMockServerPlayerInLevel();
+                           ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:476: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\PrateleiraGameTest.java:583: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:30: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:58: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:80: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:107: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:143: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:169: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:201: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:227: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:253: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+C:\Users\enzop\curseforge\minecraft\Instances\mod cet\intoxicantes-mod\src\gametest\java\com\intoxicantes\SaudeGameTest.java:285: warning: [removal] makeMockServerPlayerInLevel() in GameTestHelper has been deprecated and marked for removal
+        ServerPlayer player = helper.makeMockServerPlayerInLevel();
+                                    ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+58 warnings
+
+> Task :generateLog4jConfig UP-TO-DATE
+> Task :generateDLIConfig UP-TO-DATE
+> Task :configureLaunch UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :configureClientLaunch UP-TO-DATE
+> Task :processGametestResources UP-TO-DATE
+> Task :gametestClasses
+
+> Task :runClientGameTest
+[05:31:59] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 26.3 with Fabric Loader 0.19.5
+[05:31:59] [main/INFO] (FabricLoader/Mappings) Mappings not present!
+[05:32:00] [main/INFO] (FabricLoader) Loading 53 mods:
+	- fabric-api 0.160.7+26.3
+	- fabric-api-base 2.0.6+fcdff87f5d
+	- fabric-api-lookup-api-v1 2.0.24+3434d6d95d
+	- fabric-biome-api-v1 20.0.9+74ed1ea55d
+	- fabric-block-api-v1 3.1.0+0ae6f9115d
+	- fabric-block-getter-api-v2 2.0.9+3434d6d95d
+	- fabric-client-gametest-api-v1 6.0.7+4be74c3f5d
+	- fabric-command-api-v2 3.1.2+fcdff87f5d
+	- fabric-content-registries-v0 15.0.4+74ed1ea55d
+	- fabric-convention-tags-v2 4.10.2+5a4e5fc65d
+	- fabric-crash-report-info-v1 1.0.7+fcdff87f5d
+	- fabric-creative-tab-api-v1 5.0.21+fcdff87f5d
+	- fabric-data-attachment-api-v1 2.2.30+3434d6d95d
+	- fabric-data-generation-api-v1 27.2.3+64902b845d
+	- fabric-debug-api-v1 1.0.4+3434d6d95d
+	- fabric-dimensions-v1 5.1.19+47f74c985d
+	- fabric-entity-events-v1 6.0.4+3434d6d95d
+	- fabric-events-interaction-v0 5.3.6+3434d6d95d
+	- fabric-game-rule-api-v1 4.0.10+3434d6d95d
+	- fabric-gametest-api-v1 4.0.32+3434d6d95d
+	- fabric-item-api-v1 14.7.0+cf6bc2db5d
+	- fabric-key-mapping-api-v1 2.0.8+3434d6d95d
+	- fabric-lifecycle-events-v1 4.1.9+ffef5f675d
+	- fabric-loot-api-v3 4.0.8+4068fd645d
+	- fabric-menu-api-v1 2.0.27+ed66f0a35d
+	- fabric-message-api-v1 7.0.10+3434d6d95d
+	- fabric-model-loading-api-v1 8.0.35+fcdff87f5d
+	- fabric-networking-api-v1 6.3.8+fcdff87f5d
+	- fabric-object-builder-api-v1 24.1.9+3434d6d95d
+	- fabric-particles-v1 5.0.24+3434d6d95d
+	- fabric-permission-api-v1 1.0.8+fcdff87f5d
+	- fabric-recipe-api-v1 10.0.8+fcdff87f5d
+	- fabric-registry-sync-v0 8.0.1+fcdff87f5d
+	- fabric-renderer-api-v1 17.0.15+79385d0b5d
+	- fabric-renderer-indigo 9.1.23+b9d63e335d
+	- fabric-rendering-fluids-v1 6.0.6+3434d6d95d
+	- fabric-rendering-v1 27.0.14+901a437c5d
+	- fabric-resource-conditions-api-v1 6.1.5+3434d6d95d
+	- fabric-resource-loader-v0 3.3.26+4fc5413f5d
+	- fabric-resource-loader-v1 3.0.4+fcdff87f5d
+	- fabric-screen-api-v1 5.2.4+48607d035d
+	- fabric-serialization-api-v1 2.0.7+74ed1ea55d
+	- fabric-sound-api-v1 2.0.7+3434d6d95d
+	- fabric-tag-api-v1 2.1.10+fcdff87f5d
+	- fabric-transfer-api-v1 8.0.25+fcdff87f5d
+	- fabric-transitive-access-wideners-v1 8.1.16+52268a0e5d
+	- fabricloader 0.19.5
+	- intoxicantes 1.2.81
+	- intoxicantes-commerce-tests 1.0.0
+	- java 25
+	- minecraft 26.3
+	- mixinextras 0.5.5
+	- snc_energies 0.8.0
+[05:32:00] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/enzop/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.4+mixin.0.8.7/5f66cc9f59b8efaa942155a3d5a30599bf6640dd/sponge-mixin-0.17.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[05:32:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[05:32:06] [Datafixer Bootstrap #0/INFO] (Minecraft) 307 Datafixer optimizations took 1026 milliseconds
+[05:32:17] [Render thread/INFO] (Minecraft) Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[05:32:17] [Render thread/INFO] (Minecraft) Setting user: Player0
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies blocks constructed
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies block entities registered
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies entities registered
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies items registered
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies menus registered
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies recipes ready
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies mercadao retrogen registered
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Adventures 1.2.81 detected; optional biomass integration enabled
+[05:32:18] [Render thread/INFO] (SNC Energies) SNC Energies initialized: the grid is live!
+[05:32:18] [Render thread/INFO] (intoxicantes) [Intoxicantes] Plantacoes, bebidas, NPCs, substancias e a economia R$ registradas. Boa esquina!
+[05:32:19] [Render thread/INFO] (SNC Energies) SNC Energies client ready
+[05:32:19] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[05:32:20] [Render thread/ERROR] (Minecraft) Illegal option value 0 for Anisotropic Filtering
+[05:32:20] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.4.3-snapshot
+[05:32:20] [Render thread/WARN] (Minecraft) Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[05:32:20] [Render thread/INFO] (Minecraft) SDL [SYSTEM]: App name: Minecraft
+[05:32:20] [Render thread/INFO] (Minecraft) SDL [SYSTEM]: App version: 26.3
+[05:32:20] [Render thread/INFO] (Minecraft) SDL [SYSTEM]: App ID: com.mojang.minecraft
+[05:32:20] [Render thread/INFO] (Minecraft) SDL [SYSTEM]: SDL revision: SDL-3.4.14-62f10da
+[05:32:21] [Render thread/INFO] (Minecraft) Using graphics backend OpenGL, using drivers: 3.3.0 NVIDIA 591.86
+[05:32:21] [Render thread/INFO] (Minecraft) Using graphics device: NVIDIA GeForce RTX 4060/PCIe/SSE2 (NVIDIA Corporation)
+[05:32:21] [Render thread/INFO] (Minecraft) Using graphics device extensions: GL_ARB_multi_draw_indirect, GL_ARB_shader_draw_parameters, GL_ARB_base_instance, GL_KHR_debug, GL_ARB_draw_indirect, GL_ARB_clip_control, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[05:32:21] [Render thread/INFO] (Minecraft) Created window using SDL video driver: windows
+[05:32:22] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, vanilla, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, intoxicantes, snc_energies
+[05:32:22] [Download-1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[05:32:23] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-17.0.01.hex, loading
+[05:32:23] [Worker-Main-1/INFO] (Minecraft) Found unifont_pua-17.0.01.hex, loading
+[05:32:23] [Worker-Main-5/INFO] (Minecraft) Found unifont_jp_patch-17.0.01.hex, loading
+[05:32:23] [Worker-Main-3/WARN] (Minecraft) Texture intoxicantes:block/poste_luz_on with size 1254x1254 limits mip level from 4 to 1
+[05:32:23] [Worker-Main-3/WARN] (Minecraft) minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[05:32:28] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Fones de ouvido (4- HD-II)
+[05:32:28] [Render thread/INFO] (Minecraft) Sound engine started
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 8192x4096x1 minecraft:textures/atlas/blocks.png-atlas
+[05:32:28] [Render thread/INFO] (Minecraft) Created: 16384x8192x0 minecraft:textures/atlas/items.png-atlas
+[05:32:29] [Render thread/INFO] (Minecraft) Created: 8192x4096x0 minecraft:textures/atlas/gui.png-atlas
+[05:32:29] [Render thread/INFO] (Minecraft) Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[05:32:29] [Render thread/INFO] (Minecraft) Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[05:32:29] [Render thread/INFO] (Minecraft) Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[05:32:30] [Download-1/INFO] (Minecraft) Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FabricMC
+[05:32:34] [Worker-Main-5/WARN] (Minecraft) Found loot table element validation problem in {intoxicantes:blocks/coqueiro_folhas@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[05:32:34] [Worker-Main-3/INFO] (Minecraft) Loaded 1877 advancements
+[05:32:34] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.GenericMessageScreen@6c535a8c
+[05:32:34] [Render thread/INFO] (BiomeModificationImpl) Applied 25 biome modifications to 18 of 67 new biomes in 7.795 ms
+[05:32:35] [Server thread/INFO] (intoxicantes) [Intoxicantes] Sistema de dinheiro R$ e Mercado Esquinao inicializados.
+[05:32:35] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 26.3
+[05:32:35] [Server thread/INFO] (Minecraft) Generating keypair
+[05:32:35] [Server thread/INFO] (Minecraft) Selecting global world spawn...
+[05:32:36] [Server thread/INFO] (Minecraft) Loading 0 persistent chunks...
+[05:32:36] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 16%
+[05:32:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
+[05:32:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
+[05:32:36] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:36] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Server thread/INFO] (Minecraft) Loading 48 chunks for player spawn...
+[05:32:37] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 16%
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 16%
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 16%
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 16%
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:37] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Server thread/INFO] (Minecraft) Preparando área de nascimento: 30%
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Server thread/INFO] (Minecraft) Time elapsed: 2789 ms
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:38] [Server thread/INFO] (Minecraft) Player0[local:E:be9905b7] logged in with entity id 1 at (0.5, -60.0, 0.5)
+[05:32:38] [Server thread/INFO] (Minecraft) System chat: Player0 entrou no jogo
+[05:32:39] [Server thread/INFO] (Minecraft) Changing view distance to 5, from 10
+[05:32:39] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: null screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (Minecraft) [System] [CHAT] §eO Guia do SNC Adventures caiu na sua mochila. Botão direito pra abrir.
+[05:32:39] [Render thread/INFO] (Minecraft) Loaded 12 advancements
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/WARN] (Minecraft) Requested post effect does not exist: minecraft:end_of_frame
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Command Buffer, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Instanced, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Command Buffer, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[05:32:39] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Instanced, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:39] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: net.minecraft.client.gui.screens.LevelLoadingScreen@4b24f327
+[05:32:40] [Render thread/INFO] (fabric-client-gametest-api-v1) World loading finished: ClientLevel screen: null
+[05:32:40] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Command Buffer, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[05:32:40] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Instanced, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[05:32:41] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Command Buffer, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[05:32:41] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Instanced, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[05:32:43] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Command Buffer, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[05:32:43] [Render thread/INFO] (Minecraft) Resizing Chunk Sections Instanced, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[05:32:43] [Server thread/INFO] (intoxicantes) [Eletricidade] SNC Energies detectado: integração elétrica habilitada (fonte oficial de energia)
+[05:32:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[05:32:51] [Render thread/INFO] (Minecraft) [System] [CHAT] §eOrigem fixada (§f2.5 mm²§e). Agora clique no outro conector — vão de até §f32§e blocos.
+[05:32:51] [Render thread/INFO] (Minecraft) [System] [CHAT] §aCabo ligado§7 · §f2.5 mm²§7 · §f20 A§7 · vão de §f4§7 blocos.
+[05:32:53] [Render thread/INFO] (Minecraft) [System] [CHAT] §eCabo recolhido§7 (§f2.5 mm²§7) — a bobina volta para a mão.
+[05:32:53] [Server thread/INFO] (Minecraft) Player0 lost connection: Desconectado
+[05:32:53] [Server thread/INFO] (Minecraft) System chat: Player0 saiu do jogo
+[05:32:53] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[05:32:53] [Server thread/INFO] (Minecraft) Stopping server
+[05:32:53] [Server thread/INFO] (Minecraft) Saving players
+[05:32:53] [Server thread/INFO] (Minecraft) Saving worlds
+[05:32:54] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:overworld
+[05:32:55] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_nether
+[05:32:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Novo mundo]'/minecraft:the_end
+[05:32:56] [Render thread/INFO] (Minecraft) Stopping!
+
+[Incubating] Problems report is available at: file:///C:/Users/enzop/curseforge/minecraft/Instances/mod%20cet/intoxicantes-mod/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 22s
+8 actionable tasks: 4 executed, 4 up-to-date

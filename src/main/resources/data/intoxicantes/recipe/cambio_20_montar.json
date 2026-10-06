@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:nota_10",
+    "intoxicantes:nota_10"
+  ],
+  "result": {
+    "id": "intoxicantes:nota_20",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "metade=lower": {
+   "model": "intoxicantes:block/alambique_baixo"
+  },
+  "metade=upper": {
+   "model": "intoxicantes:block/alambique_alto"
+  }
+ }
+}

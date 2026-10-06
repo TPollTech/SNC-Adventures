@@ -1,0 +1,178 @@
+{
+  "parent": "block/block",
+  "texture_size": [
+    128,
+    128
+  ],
+  "textures": {
+    "particle": "#madeira",
+    "madeira": "intoxicantes:block/porta_grade",
+    "ferro": "intoxicantes:block/porta_grade_ferro",
+    "verga": "intoxicantes:block/porta_grade_verga",
+    "grade": "intoxicantes:block/porta_grade_grade"
+  },
+  "render_type": "minecraft:cutout",
+  "elements": [
+    {
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#verga"
+        },
+        "up": {
+          "texture": "#verga",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#verga"
+        },
+        "south": {
+          "texture": "#verga"
+        },
+        "west": {
+          "texture": "#verga"
+        },
+        "east": {
+          "texture": "#verga"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        2,
+        12,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ferro"
+        },
+        "up": {
+          "texture": "#ferro"
+        },
+        "north": {
+          "texture": "#ferro"
+        },
+        "south": {
+          "texture": "#ferro"
+        },
+        "west": {
+          "texture": "#ferro"
+        },
+        "east": {
+          "texture": "#ferro"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        4
+      ],
+      "faces": {
+        "down": {
+          "texture": "#ferro"
+        },
+        "up": {
+          "texture": "#ferro"
+        },
+        "north": {
+          "texture": "#ferro"
+        },
+        "south": {
+          "texture": "#ferro"
+        },
+        "west": {
+          "texture": "#ferro"
+        },
+        "east": {
+          "texture": "#ferro"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        6,
+        1
+      ],
+      "to": [
+        14,
+        12,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#grade"
+        },
+        "up": {
+          "texture": "#grade"
+        },
+        "north": {
+          "texture": "#grade"
+        },
+        "south": {
+          "texture": "#grade"
+        },
+        "west": {
+          "texture": "#grade"
+        },
+        "east": {
+          "texture": "#grade"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        5,
+        3
+      ],
+      "faces": {
+        "down": {
+          "texture": "#madeira"
+        },
+        "up": {
+          "texture": "#madeira"
+        },
+        "north": {
+          "texture": "#madeira"
+        },
+        "south": {
+          "texture": "#madeira"
+        },
+        "west": {
+          "texture": "#madeira"
+        },
+        "east": {
+          "texture": "#madeira"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "intoxicantes:esquinao/primeira_compra",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.intoxicantes.fregues_da_esquina.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "intoxicantes:hidromel"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.fregues_da_esquina.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

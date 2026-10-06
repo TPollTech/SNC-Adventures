@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "intoxicantes:cevada"
+  },
+  "result": {
+    "id": "intoxicantes:pao_cevada",
+    "count": 1
+  }
+}

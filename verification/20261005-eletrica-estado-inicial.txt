@@ -1,0 +1,443 @@
+ M AGENTS.md
+ M CHANGELOG.md
+ M README.md
+ M build.gradle
+ M dist/SHA256.txt
+ M dist/VERIFICACAO.md
+ M gradlew.bat
+ M preview/auditoria-texturas.md
+ M preview/identidade-dados.json
+ M src/gametest/java/com/intoxicantes/BebidasClientTest.java
+ M src/gametest/java/com/intoxicantes/BebidasDecorativasGameTest.java
+ M src/gametest/java/com/intoxicantes/BebidasVaziasGameTest.java
+ M src/gametest/java/com/intoxicantes/CommerceGameTest.java
+ M src/gametest/java/com/intoxicantes/MarketOverhaulGameTest.java
+ M src/gametest/java/com/intoxicantes/ParreiraClientTest.java
+ M src/gametest/java/com/intoxicantes/ParreiraGameTest.java
+ M src/gametest/resources/fabric.mod.json
+ M src/main/java/com/intoxicantes/AlambiqueBlockEntity.java
+ M src/main/java/com/intoxicantes/ArmasClient.java
+ M src/main/java/com/intoxicantes/BarrilBebidaBlock.java
+ M src/main/java/com/intoxicantes/BarrilBebidaBlockEntity.java
+ M src/main/java/com/intoxicantes/BebidaColocavelItem.java
+ M src/main/java/com/intoxicantes/BebidaDecorativaEntity.java
+ M src/main/java/com/intoxicantes/BebidaDecorativaRenderer.java
+ M src/main/java/com/intoxicantes/CentralComandoNetworking.java
+ M src/main/java/com/intoxicantes/CocoBlock.java
+ M src/main/java/com/intoxicantes/DornaBebidaBlockEntity.java
+ M src/main/java/com/intoxicantes/EsquinaoCardapioScreen.java
+ M src/main/java/com/intoxicantes/EsquinaoNetworking.java
+ M src/main/java/com/intoxicantes/FidelidadeData.java
+ M src/main/java/com/intoxicantes/GagoEntity.java
+ M src/main/java/com/intoxicantes/GuiaConteudo.java
+ M src/main/java/com/intoxicantes/GuiaScreen.java
+ M src/main/java/com/intoxicantes/IntoxicantesClient.java
+ M src/main/java/com/intoxicantes/IntoxicantesMod.java
+ M src/main/java/com/intoxicantes/LampadaUvBlock.java
+ M src/main/java/com/intoxicantes/MaquinaGrandeBlock.java
+ M src/main/java/com/intoxicantes/MaquinaPrimaBlockEntity.java
+ M src/main/java/com/intoxicantes/MaquinasVivasRenderer.java
+ M src/main/java/com/intoxicantes/MarketSystem.java
+ M src/main/java/com/intoxicantes/MenuMaquinaSNC.java
+ M src/main/java/com/intoxicantes/ParreiraBlockEntity.java
+ M src/main/java/com/intoxicantes/ParreiraEstrutura.java
+ M src/main/java/com/intoxicantes/ParreiraRenderer.java
+ M src/main/java/com/intoxicantes/PontoTraficanteScreen.java
+ M src/main/java/com/intoxicantes/PortaGradeBlock.java
+ M src/main/java/com/intoxicantes/ProcessosBebida.java
+ M src/main/java/com/intoxicantes/RelogioHud.java
+ M src/main/java/com/intoxicantes/TelaMaquinaBase.java
+ M src/main/java/com/intoxicantes/TradeCatalog.java
+ M src/main/java/com/intoxicantes/TradeCatalogClient.java
+ M src/main/java/com/intoxicantes/TraficanteEntity.java
+ M src/main/java/com/intoxicantes/UvaParreiraBlock.java
+ M src/main/java/com/intoxicantes/mixin/CameraViagemMixin.java
+ M src/main/java/com/intoxicantes/mixin/MouseBotaoMixin.java
+ M src/main/resources/assets/intoxicantes/items/bagaco_de_cana.json
+ M src/main/resources/assets/intoxicantes/items/baseado.json
+ M src/main/resources/assets/intoxicantes/items/cafe_verde.json
+ M src/main/resources/assets/intoxicantes/items/camisa_matanza.json
+ M src/main/resources/assets/intoxicantes/items/cana_de_acucar.json
+ M src/main/resources/assets/intoxicantes/items/central_comando.json
+ M src/main/resources/assets/intoxicantes/items/cevada.json
+ M src/main/resources/assets/intoxicantes/items/cigarro_camel.json
+ M src/main/resources/assets/intoxicantes/items/cocaina.json
+ M src/main/resources/assets/intoxicantes/items/cogumelo_xamanico.json
+ M src/main/resources/assets/intoxicantes/items/cristal_de_euforia.json
+ M src/main/resources/assets/intoxicantes/items/extrato_cafeina.json
+ M src/main/resources/assets/intoxicantes/items/heroina.json
+ M src/main/resources/assets/intoxicantes/items/lsd.json
+ M src/main/resources/assets/intoxicantes/items/lupulo.json
+ M src/main/resources/assets/intoxicantes/items/maconha_seda.json
+ M src/main/resources/assets/intoxicantes/items/malte.json
+ M src/main/resources/assets/intoxicantes/items/nevoa_do_deserto.json
+ M src/main/resources/assets/intoxicantes/items/po_estelar.json
+ M src/main/resources/assets/intoxicantes/items/poste_luz.json
+ M src/main/resources/assets/intoxicantes/items/raiz_de_sombra.json
+ M src/main/resources/assets/intoxicantes/items/semente_cafe.json
+ M src/main/resources/assets/intoxicantes/items/semente_cevada.json
+ M src/main/resources/assets/intoxicantes/items/semente_lupulo.json
+ M src/main/resources/assets/intoxicantes/items/semente_maconha.json
+ M src/main/resources/assets/intoxicantes/items/semente_papoula.json
+ M src/main/resources/assets/intoxicantes/items/semente_uva.json
+ M src/main/resources/assets/intoxicantes/items/uva.json
+ M src/main/resources/assets/intoxicantes/lang/en_us.json
+ M src/main/resources/assets/intoxicantes/lang/pt_br.json
+ M src/main/resources/assets/intoxicantes/models/block/caixa_mercado.json
+ M src/main/resources/assets/intoxicantes/models/block/caixa_mercado_topo.json
+ M src/main/resources/assets/intoxicantes/models/block/coco_bloco.json
+ M src/main/resources/assets/intoxicantes/models/block/lampada_uv.json
+ M src/main/resources/assets/intoxicantes/models/block/lampada_uv_off.json
+ M src/main/resources/assets/intoxicantes/models/item/agua_de_coco.json
+ M src/main/resources/assets/intoxicantes/models/item/agua_de_coco_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/bagaco_de_cana.json
+ M src/main/resources/assets/intoxicantes/models/item/baseado.json
+ M src/main/resources/assets/intoxicantes/models/item/cachaca.json
+ M src/main/resources/assets/intoxicantes/models/item/cachaca_jovem.json
+ M src/main/resources/assets/intoxicantes/models/item/cachaca_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/cafe_verde.json
+ M src/main/resources/assets/intoxicantes/models/item/caldo_de_cana.json
+ M src/main/resources/assets/intoxicantes/models/item/camisa_matanza.json
+ M src/main/resources/assets/intoxicantes/models/item/cana_de_acucar.json
+ M src/main/resources/assets/intoxicantes/models/item/central_comando.json
+ M src/main/resources/assets/intoxicantes/models/item/cerveja.json
+ M src/main/resources/assets/intoxicantes/models/item/cerveja_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/cevada.json
+ M src/main/resources/assets/intoxicantes/models/item/cha_lupulo.json
+ M src/main/resources/assets/intoxicantes/models/item/cha_lupulo_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/cigarro_camel.json
+ M src/main/resources/assets/intoxicantes/models/item/cocaina.json
+ M src/main/resources/assets/intoxicantes/models/item/coco.json
+ M src/main/resources/assets/intoxicantes/models/item/cogumelo_xamanico.json
+ M src/main/resources/assets/intoxicantes/models/item/cristal_de_euforia.json
+ M src/main/resources/assets/intoxicantes/models/item/extrato_cafeina.json
+ M src/main/resources/assets/intoxicantes/models/item/guia_snc.json
+ M src/main/resources/assets/intoxicantes/models/item/heroina.json
+ M src/main/resources/assets/intoxicantes/models/item/hidromel.json
+ M src/main/resources/assets/intoxicantes/models/item/hidromel_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/lampada_uv.json
+ M src/main/resources/assets/intoxicantes/models/item/lsd.json
+ M src/main/resources/assets/intoxicantes/models/item/lupulo.json
+ M src/main/resources/assets/intoxicantes/models/item/maconha_seda.json
+ M src/main/resources/assets/intoxicantes/models/item/malte.json
+ M src/main/resources/assets/intoxicantes/models/item/melaco.json
+ M src/main/resources/assets/intoxicantes/models/item/mosto_cana_fermentado.json
+ M src/main/resources/assets/intoxicantes/models/item/mosto_cerveja_lupulado.json
+ M src/main/resources/assets/intoxicantes/models/item/mosto_de_uva.json
+ M src/main/resources/assets/intoxicantes/models/item/mosto_rum_fermentado.json
+ M src/main/resources/assets/intoxicantes/models/item/nevoa_do_deserto.json
+ M src/main/resources/assets/intoxicantes/models/item/opio.json
+ M src/main/resources/assets/intoxicantes/models/item/ovo_gago.json
+ M src/main/resources/assets/intoxicantes/models/item/ovo_juca.json
+ M src/main/resources/assets/intoxicantes/models/item/ovo_traficante.json
+ M src/main/resources/assets/intoxicantes/models/item/pao_cevada.json
+ M src/main/resources/assets/intoxicantes/models/item/po_estelar.json
+ M src/main/resources/assets/intoxicantes/models/item/poste_luz.json
+ M src/main/resources/assets/intoxicantes/models/item/raiz_de_sombra.json
+ M src/main/resources/assets/intoxicantes/models/item/rum.json
+ M src/main/resources/assets/intoxicantes/models/item/rum_jovem.json
+ M src/main/resources/assets/intoxicantes/models/item/rum_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_cafe.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_cevada.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_lupulo.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_maconha.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_papoula.json
+ M src/main/resources/assets/intoxicantes/models/item/semente_uva.json
+ M src/main/resources/assets/intoxicantes/models/item/suco_detox.json
+ M src/main/resources/assets/intoxicantes/models/item/suco_detox_vazia.json
+ M src/main/resources/assets/intoxicantes/models/item/uva.json
+ M src/main/resources/assets/intoxicantes/models/item/vinho.json
+ M src/main/resources/assets/intoxicantes/models/item/vinho_vazia.json
+ M src/main/resources/assets/intoxicantes/textures/block/asfalto.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage1.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage2.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage3.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage4.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage4_dormant.png
+ M src/main/resources/assets/intoxicantes/textures/block/cafe_stage4_ripe.png
+ M src/main/resources/assets/intoxicantes/textures/block/caixa_mercado.png
+ M src/main/resources/assets/intoxicantes/textures/block/caixa_mercado_gaveta.png
+ M src/main/resources/assets/intoxicantes/textures/block/caixa_mercado_metal.png
+ M src/main/resources/assets/intoxicantes/textures/block/caixa_mercado_tampo.png
+ M src/main/resources/assets/intoxicantes/textures/block/caixa_mercado_visor.png
+ M src/main/resources/assets/intoxicantes/textures/block/faixa_pedestre.png
+ M src/main/resources/assets/intoxicantes/textures/block/hidrante.png
+ M src/main/resources/assets/intoxicantes/textures/block/hidrante_base.png
+ M src/main/resources/assets/intoxicantes/textures/block/hidrante_topo.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage1.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage2.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage3.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage4.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage4_dormant.png
+ M src/main/resources/assets/intoxicantes/textures/block/lupulo_stage4_ripe.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage1.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage2.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage3.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage4.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage4_dormant.png
+ M src/main/resources/assets/intoxicantes/textures/block/maconha_stage4_ripe.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage1.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage2.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage3.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage4.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage4_dormant.png
+ M src/main/resources/assets/intoxicantes/textures/block/papoula_stage4_ripe.png
+ M src/main/resources/assets/intoxicantes/textures/block/placa_esquinao_back.png
+ M src/main/resources/assets/intoxicantes/textures/block/placa_esquinao_coluna.png
+ M src/main/resources/assets/intoxicantes/textures/block/placa_esquinao_front.png
+ M src/main/resources/assets/intoxicantes/textures/block/placa_esquinao_rodape.png
+ M src/main/resources/assets/intoxicantes/textures/block/placa_esquinao_tela.png
+ M src/main/resources/assets/intoxicantes/textures/block/porta_grade_item.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage1.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage2.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage3.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage4.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage4_dormant.png
+ M src/main/resources/assets/intoxicantes/textures/block/uva_stage4_ripe.png
+ M src/main/resources/assets/intoxicantes/textures/item/moeda_1.png
+ M src/main/resources/data/intoxicantes/structure/mercado_gago.nbt
+ M src/main/resources/data/intoxicantes/structure/mercado_gago_serra.nbt
+ M src/main/resources/data/intoxicantes/structure/mercado_gago_sertao.nbt
+ M tools/gen_bebidas.py
+ M tools/gen_dinheiro.py
+ M tools/gen_farm_resources.py
+ M tools/gen_farm_textures.py
+ M tools/gen_garrafas.py
+ M tools/gen_mercado.py
+ M tools/gen_npc_textures.py
+ D tools/gen_opio.py
+ M tools/gen_porta_grade.py
+ M tools/gen_preview_guia.py
+ M tools/gen_texturas_saude.py
+ M tools/gen_texturas_v1258.py
+ M tools/gen_textures.py
+ M tools/validate_worldgen.py
+?? agentes/
+?? gen_preview_guia.py
+?? preview/caixa-registradora.html
+?? preview/eletrica-dados.json
+?? preview/eletrica.html
+?? preview/fotos-salao/
+?? preview/mobilia-salao.html
+?? preview/prateleira-dados.json
+?? preview/prateleira-mesa.png
+?? preview/prateleira-navegador.png
+?? preview/prateleira-pedido.html
+?? preview/prateleira-snc.png
+?? preview/prateleira.html
+?? preview/quadro-gui.html
+?? run/data/
+?? run/downloads/
+?? run/logs/2026-09-17-2.log.gz
+?? run/logs/debug-2.log.gz
+?? run/options.txt
+?? src/gametest/java/com/intoxicantes/ArmasClientTest.java
+?? src/gametest/java/com/intoxicantes/CarrinhoClientTest.java
+?? src/gametest/java/com/intoxicantes/CoqueiroTooltipClientTest.java
+?? src/gametest/java/com/intoxicantes/EletricidadeGameTest.java
+?? src/gametest/java/com/intoxicantes/GuiMaquinasClientTest.java
+?? src/gametest/java/com/intoxicantes/IdentidadeClientTest.java
+?? src/gametest/java/com/intoxicantes/LedPotenciaGameTest.java
+?? src/gametest/java/com/intoxicantes/SementesClientTest.java
+?? src/main/java/com/intoxicantes/CaboEletricoBlock.java
+?? src/main/java/com/intoxicantes/CachoParreiraEntity.java
+?? src/main/java/com/intoxicantes/CalendarioEsquinao.java
+?? src/main/java/com/intoxicantes/InterruptorSimplesBlock.java
+?? src/main/java/com/intoxicantes/LedPotenciaBlock.java
+?? src/main/java/com/intoxicantes/LedPotenciaBlockEntity.java
+?? src/main/java/com/intoxicantes/MultimetroItem.java
+?? src/main/java/com/intoxicantes/QuadroEletricoBlock.java
+?? src/main/java/com/intoxicantes/QuadroEletricoNetworking.java
+?? src/main/java/com/intoxicantes/QuadroEletricoScreen.java
+?? src/main/java/com/intoxicantes/SoqueteTetoBlock.java
+?? src/main/java/com/intoxicantes/TomadaBlock.java
+?? src/main/java/com/intoxicantes/energia/
+?? src/main/resources/assets/intoxicantes/blockstates/cabo_cobre_10mm.json
+?? src/main/resources/assets/intoxicantes/blockstates/cabo_cobre_1_5mm.json
+?? src/main/resources/assets/intoxicantes/blockstates/cabo_cobre_2_5mm.json
+?? src/main/resources/assets/intoxicantes/blockstates/cabo_cobre_4mm.json
+?? src/main/resources/assets/intoxicantes/blockstates/cabo_cobre_6mm.json
+?? src/main/resources/assets/intoxicantes/blockstates/interruptor_simples.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_100w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_12w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_150w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_15w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_200w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_20w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_30w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_50w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_5w.json
+?? src/main/resources/assets/intoxicantes/blockstates/lampada_led_9w.json
+?? src/main/resources/assets/intoxicantes/blockstates/quadro_eletrico.json
+?? src/main/resources/assets/intoxicantes/blockstates/soquete_teto.json
+?? src/main/resources/assets/intoxicantes/blockstates/tomada.json
+?? src/main/resources/assets/intoxicantes/equipment/
+?? src/main/resources/assets/intoxicantes/items/cabo_cobre_10mm.json
+?? src/main/resources/assets/intoxicantes/items/cabo_cobre_1_5mm.json
+?? src/main/resources/assets/intoxicantes/items/cabo_cobre_2_5mm.json
+?? src/main/resources/assets/intoxicantes/items/cabo_cobre_4mm.json
+?? src/main/resources/assets/intoxicantes/items/cabo_cobre_6mm.json
+?? src/main/resources/assets/intoxicantes/items/caixa_mercado.json
+?? src/main/resources/assets/intoxicantes/items/interruptor_simples.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_100w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_12w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_150w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_15w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_200w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_20w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_30w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_50w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_5w.json
+?? src/main/resources/assets/intoxicantes/items/lampada_led_9w.json
+?? src/main/resources/assets/intoxicantes/items/multimetro.json
+?? src/main/resources/assets/intoxicantes/items/prateleira_mercado.json
+?? src/main/resources/assets/intoxicantes/items/quadro_eletrico.json
+?? src/main/resources/assets/intoxicantes/items/soquete_teto.json
+?? src/main/resources/assets/intoxicantes/items/tomada.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_down.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_east.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_north.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_south.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_up.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_braco_west.json
+?? src/main/resources/assets/intoxicantes/models/block/cabo_cobre_nucleo.json
+?? src/main/resources/assets/intoxicantes/models/block/interruptor_simples.json
+?? src/main/resources/assets/intoxicantes/models/block/interruptor_simples_on.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_100w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_12w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_150w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_15w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_200w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_20w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_30w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_50w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_5w.json
+?? src/main/resources/assets/intoxicantes/models/block/lampada_led_9w.json
+?? src/main/resources/assets/intoxicantes/models/block/parreira_cacho.json
+?? src/main/resources/assets/intoxicantes/models/block/parreira_cacho_maduro.json
+?? src/main/resources/assets/intoxicantes/models/block/quadro_eletrico.json
+?? src/main/resources/assets/intoxicantes/models/block/soquete_teto.json
+?? src/main/resources/assets/intoxicantes/models/block/tomada.json
+?? src/main/resources/assets/intoxicantes/models/block/tomada_energizada.json
+?? src/main/resources/assets/intoxicantes/models/item/cabo_cobre_10mm.json
+?? src/main/resources/assets/intoxicantes/models/item/cabo_cobre_1_5mm.json
+?? src/main/resources/assets/intoxicantes/models/item/cabo_cobre_2_5mm.json
+?? src/main/resources/assets/intoxicantes/models/item/cabo_cobre_4mm.json
+?? src/main/resources/assets/intoxicantes/models/item/cabo_cobre_6mm.json
+?? src/main/resources/assets/intoxicantes/models/item/interruptor_simples.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_100w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_12w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_150w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_15w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_200w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_20w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_30w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_50w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_5w.json
+?? src/main/resources/assets/intoxicantes/models/item/lampada_led_9w.json
+?? src/main/resources/assets/intoxicantes/models/item/multimetro.json
+?? src/main/resources/assets/intoxicantes/models/item/quadro_eletrico.json
+?? src/main/resources/assets/intoxicantes/models/item/soquete_teto.json
+?? src/main/resources/assets/intoxicantes/models/item/tomada.json
+?? src/main/resources/assets/intoxicantes/textures/block/cabo_cobre.png
+?? src/main/resources/assets/intoxicantes/textures/block/coco_atlas.png
+?? src/main/resources/assets/intoxicantes/textures/block/coco_particula.png
+?? src/main/resources/assets/intoxicantes/textures/block/componente_cinza.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_100w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_100w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_12w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_12w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_150w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_150w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_15w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_15w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_200w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_200w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_20w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_20w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_30w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_30w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_50w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_50w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_5w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_5w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_9w.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_9w_metal.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_fim.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_led_suporte.png
+?? src/main/resources/assets/intoxicantes/textures/block/lampada_uv_atlas.png
+?? src/main/resources/assets/intoxicantes/textures/block/quadro_eletrico.png
+?? src/main/resources/assets/intoxicantes/textures/entity/equipment/
+?? src/main/resources/assets/intoxicantes/textures/item/catalogo/
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/agua_de_coco_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/cachaca_jovem_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/cachaca_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/caldo_de_cana_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/cerveja_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/cha_lupulo_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/hidromel_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/melaco_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/mosto_cana_fermentado_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/mosto_cerveja_lupulado_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/mosto_de_uva_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/mosto_rum_fermentado_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/pao_cevada_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/rum_jovem_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/rum_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/suco_detox_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/garrafas/vinho_particula.png
+?? src/main/resources/assets/intoxicantes/textures/item/multimetro.png
+?? src/main/resources/assets/intoxicantes/textures/item/sementes/
+?? src/main/resources/data/intoxicantes/loot_table/blocks/cabo_cobre_10mm.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/cabo_cobre_1_5mm.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/cabo_cobre_2_5mm.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/cabo_cobre_4mm.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/cabo_cobre_6mm.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/interruptor_simples.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_100w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_12w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_150w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_15w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_200w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_20w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_30w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_50w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_5w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/lampada_led_9w.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/quadro_eletrico.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/soquete_teto.json
+?? src/main/resources/data/intoxicantes/loot_table/blocks/tomada.json
+?? src/main/resources/data/intoxicantes/recipe/cabo_cobre_10mm.json
+?? src/main/resources/data/intoxicantes/recipe/cabo_cobre_1_5mm.json
+?? src/main/resources/data/intoxicantes/recipe/cabo_cobre_2_5mm.json
+?? src/main/resources/data/intoxicantes/recipe/cabo_cobre_4mm.json
+?? src/main/resources/data/intoxicantes/recipe/cabo_cobre_6mm.json
+?? src/main/resources/data/intoxicantes/recipe/interruptor_simples.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_100w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_12w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_150w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_15w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_200w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_20w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_30w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_50w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_5w.json
+?? src/main/resources/data/intoxicantes/recipe/lampada_led_9w.json
+?? src/main/resources/data/intoxicantes/recipe/multimetro.json
+?? src/main/resources/data/intoxicantes/recipe/quadro_eletrico.json
+?? src/main/resources/data/intoxicantes/recipe/soquete_teto.json
+?? src/main/resources/data/intoxicantes/recipe/tomada.json
+?? src/main/resources/data/minecraft/
+?? tools/gen_camisa_equip.py
+?? tools/gen_catalogo.py
+?? tools/gen_eletrica.py
+?? tools/gen_lampada_led.py
+?? tools/gen_lampada_led_potencia.py
+?? tools/gen_sementes.py
+?? tools/preview_catalogo.py

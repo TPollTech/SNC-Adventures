@@ -1,0 +1,7871 @@
+{
+  "units_per_block": 16,
+  "groups": [
+    {
+      "name": "chassis",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "direcao",
+      "origin": [
+        0,
+        13,
+        -10
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "parent": "chassis"
+    },
+    {
+      "name": "roda_frente",
+      "origin": [
+        0,
+        5,
+        -12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "parent": "direcao"
+    },
+    {
+      "name": "roda_tras",
+      "origin": [
+        0,
+        5,
+        12
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "parent": "chassis"
+    },
+    {
+      "name": "cavalete",
+      "origin": [
+        0,
+        6,
+        6
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "parent": "chassis"
+    }
+  ],
+  "cubes": [
+    {
+      "name": "roda_frente_borracha_0_1",
+      "from": [
+        -1.0,
+        8.8,
+        -12.5626
+      ],
+      "to": [
+        1.0,
+        10.0,
+        -11.4374
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.4,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_0_1",
+      "from": [
+        -0.775,
+        8.35,
+        -12.4731
+      ],
+      "to": [
+        0.775,
+        8.85,
+        -11.5269
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.6,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_0_1",
+      "from": [
+        -0.7,
+        9.88,
+        -12.115
+      ],
+      "to": [
+        0.7,
+        10.0,
+        -11.885
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.940000000000001,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_1_1",
+      "from": [
+        -1.0,
+        8.6897,
+        -11.5836
+      ],
+      "to": [
+        1.0,
+        9.8897,
+        -10.4583
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.289682813600024,
+        -11.020907890592216
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_1_1",
+      "from": [
+        -0.775,
+        8.2597,
+        -11.672
+      ],
+      "to": [
+        0.775,
+        8.7597,
+        -10.7259
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.509740483854564,
+        -11.198924637757269
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_1_1",
+      "from": [
+        -0.7,
+        9.7561,
+        -11.0157
+      ],
+      "to": [
+        0.7,
+        9.8761,
+        -10.7857
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.81614388617821,
+        -10.900746586255806
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_2_1",
+      "from": [
+        -1.0,
+        8.3643,
+        -10.6536
+      ],
+      "to": [
+        1.0,
+        9.5643,
+        -9.5283
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.964263018770644,
+        -10.090911547882744
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_2_1",
+      "from": [
+        -0.775,
+        7.9935,
+        -10.9111
+      ],
+      "to": [
+        0.775,
+        8.4935,
+        -9.9649
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.24348792444871,
+        -10.438018539176792
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_2_1",
+      "from": [
+        -0.7,
+        9.3908,
+        -9.9716
+      ],
+      "to": [
+        0.7,
+        9.5108,
+        -9.7416
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.45078620743795,
+        -9.856614328759264
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_3_1",
+      "from": [
+        -1.0,
+        7.8401,
+        -9.8193
+      ],
+      "to": [
+        1.0,
+        9.0401,
+        -8.694
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.440058522859331,
+        -9.256644871821573
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_3_1",
+      "from": [
+        -0.775,
+        7.5646,
+        -10.2285
+      ],
+      "to": [
+        0.775,
+        8.0646,
+        -9.2824
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.814593336884908,
+        -9.755436713308558
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_3_1",
+      "from": [
+        -0.7,
+        8.8022,
+        -9.035
+      ],
+      "to": [
+        0.7,
+        8.9222,
+        -8.805
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.862247523392067,
+        -8.919960378817857
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_4_1",
+      "from": [
+        -1.0,
+        7.1434,
+        -9.1226
+      ],
+      "to": [
+        1.0,
+        8.3434,
+        -7.9973
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.743355128178428,
+        -8.559941477140669
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_4_1",
+      "from": [
+        -0.775,
+        6.9946,
+        -9.6585
+      ],
+      "to": [
+        0.775,
+        7.4946,
+        -8.7123
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.244563286691442,
+        -9.185406663115092
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_4_1",
+      "from": [
+        -0.7,
+        8.02,
+        -8.2528
+      ],
+      "to": [
+        0.7,
+        8.14,
+        -8.0228
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.080039621182145,
+        -8.137752476607933
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_5_1",
+      "from": [
+        -1.0,
+        6.3091,
+        -8.5984
+      ],
+      "to": [
+        1.0,
+        7.5091,
+        -7.4731
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.909088452117256,
+        -8.035736981229356
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_5_1",
+      "from": [
+        -0.775,
+        6.312,
+        -9.2296
+      ],
+      "to": [
+        0.775,
+        6.812,
+        -8.2834
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.561981460823209,
+        -8.75651207555129
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_5_1",
+      "from": [
+        -0.7,
+        7.0834,
+        -7.6642
+      ],
+      "to": [
+        0.7,
+        7.2034,
+        -7.4342
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.143385671240738,
+        -7.549213792562049
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_6_1",
+      "from": [
+        -1.0,
+        5.3791,
+        -8.273
+      ],
+      "to": [
+        1.0,
+        6.5791,
+        -7.1477
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.979092109407784,
+        -7.710317186399975
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_6_1",
+      "from": [
+        -0.775,
+        5.5511,
+        -8.9633
+      ],
+      "to": [
+        0.775,
+        6.0511,
+        -8.0172
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.801075362242732,
+        -8.490259516145436
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_6_1",
+      "from": [
+        -0.7,
+        6.0393,
+        -7.2989
+      ],
+      "to": [
+        0.7,
+        6.1593,
+        -7.0689
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.099253413744194,
+        -7.183856113821791
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_7_1",
+      "from": [
+        -1.0,
+        4.4,
+        -8.1626
+      ],
+      "to": [
+        1.0,
+        5.6,
+        -7.0374
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        -7.6
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_7_1",
+      "from": [
+        -0.775,
+        4.75,
+        -8.8731
+      ],
+      "to": [
+        0.775,
+        5.25,
+        -7.9269
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        -8.4
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_7_1",
+      "from": [
+        -0.7,
+        4.94,
+        -7.175
+      ],
+      "to": [
+        0.7,
+        5.06,
+        -6.945
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        -7.06
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_8_1",
+      "from": [
+        -1.0,
+        3.4209,
+        -8.273
+      ],
+      "to": [
+        1.0,
+        4.6209,
+        -7.1477
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.020907890592217,
+        -7.710317186399975
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_8_1",
+      "from": [
+        -0.775,
+        3.9489,
+        -8.9633
+      ],
+      "to": [
+        0.775,
+        4.4489,
+        -8.0172
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.198924637757268,
+        -8.490259516145436
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_8_1",
+      "from": [
+        -0.7,
+        3.8407,
+        -7.2989
+      ],
+      "to": [
+        0.7,
+        3.9607,
+        -7.0689
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.9007465862558073,
+        -7.183856113821791
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_9_1",
+      "from": [
+        -1.0,
+        2.4909,
+        -8.5984
+      ],
+      "to": [
+        1.0,
+        3.6909,
+        -7.4731
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.0909115478827447,
+        -8.035736981229356
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_9_1",
+      "from": [
+        -0.775,
+        3.188,
+        -9.2296
+      ],
+      "to": [
+        0.775,
+        3.688,
+        -8.2834
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.438018539176791,
+        -8.75651207555129
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_9_1",
+      "from": [
+        -0.7,
+        2.7966,
+        -7.6642
+      ],
+      "to": [
+        0.7,
+        2.9166,
+        -7.4342
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.856614328759263,
+        -7.549213792562049
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_10_1",
+      "from": [
+        -1.0,
+        1.6566,
+        -9.1226
+      ],
+      "to": [
+        1.0,
+        2.8566,
+        -7.9973
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.2566448718215724,
+        -8.559941477140669
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_10_1",
+      "from": [
+        -0.775,
+        2.5054,
+        -9.6585
+      ],
+      "to": [
+        0.775,
+        3.0054,
+        -8.7123
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.7554367133085593,
+        -9.185406663115092
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_10_1",
+      "from": [
+        -0.7,
+        1.86,
+        -8.2528
+      ],
+      "to": [
+        0.7,
+        1.98,
+        -8.0228
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.9199603788178563,
+        -8.137752476607933
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_11_1",
+      "from": [
+        -1.0,
+        0.9599,
+        -9.8193
+      ],
+      "to": [
+        1.0,
+        2.1599,
+        -8.694
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.5599414771406699,
+        -9.256644871821571
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_11_1",
+      "from": [
+        -0.775,
+        1.9354,
+        -10.2285
+      ],
+      "to": [
+        0.775,
+        2.4354,
+        -9.2824
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.185406663115094,
+        -9.755436713308558
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_11_1",
+      "from": [
+        -0.7,
+        1.0778,
+        -9.035
+      ],
+      "to": [
+        0.7,
+        1.1978,
+        -8.805
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.1377524766079343,
+        -8.919960378817855
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_12_1",
+      "from": [
+        -1.0,
+        0.4357,
+        -10.6536
+      ],
+      "to": [
+        1.0,
+        1.6357,
+        -9.5283
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.035736981229356,
+        -10.090911547882744
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_12_1",
+      "from": [
+        -0.775,
+        1.5065,
+        -10.9111
+      ],
+      "to": [
+        0.775,
+        2.0065,
+        -9.9649
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.7565120755512913,
+        -10.43801853917679
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_12_1",
+      "from": [
+        -0.7,
+        0.4892,
+        -9.9716
+      ],
+      "to": [
+        0.7,
+        0.6092,
+        -9.7416
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5492137925620497,
+        -9.856614328759262
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_13_1",
+      "from": [
+        -1.0,
+        0.1103,
+        -11.5836
+      ],
+      "to": [
+        1.0,
+        1.3103,
+        -10.4583
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.7103171863999753,
+        -11.020907890592218
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_13_1",
+      "from": [
+        -0.775,
+        1.2403,
+        -11.672
+      ],
+      "to": [
+        0.775,
+        1.7403,
+        -10.7259
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4902595161454344,
+        -11.198924637757269
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_13_1",
+      "from": [
+        -0.7,
+        0.1239,
+        -11.0157
+      ],
+      "to": [
+        0.7,
+        0.2439,
+        -10.7857
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.18385611382179068,
+        -10.900746586255808
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_14_1",
+      "from": [
+        -1.0,
+        -0.0,
+        -12.5626
+      ],
+      "to": [
+        1.0,
+        1.2,
+        -11.4374
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5999999999999996,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_14_1",
+      "from": [
+        -0.775,
+        1.15,
+        -12.4731
+      ],
+      "to": [
+        0.775,
+        1.65,
+        -11.5269
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_14_1",
+      "from": [
+        -0.7,
+        -0.0,
+        -12.115
+      ],
+      "to": [
+        0.7,
+        0.12,
+        -11.885
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.05999999999999961,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_15_1",
+      "from": [
+        -1.0,
+        0.1103,
+        -13.5417
+      ],
+      "to": [
+        1.0,
+        1.3103,
+        -12.4164
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.7103171863999753,
+        -12.97909210940778
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_15_1",
+      "from": [
+        -0.775,
+        1.2403,
+        -13.2741
+      ],
+      "to": [
+        0.775,
+        1.7403,
+        -12.328
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4902595161454344,
+        -12.80107536224273
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_15_1",
+      "from": [
+        -0.7,
+        0.1239,
+        -13.2143
+      ],
+      "to": [
+        0.7,
+        0.2439,
+        -12.9843
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.18385611382179068,
+        -13.09925341374419
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_16_1",
+      "from": [
+        -1.0,
+        0.4357,
+        -14.4717
+      ],
+      "to": [
+        1.0,
+        1.6357,
+        -13.3464
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.0357369812293555,
+        -13.909088452117256
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_16_1",
+      "from": [
+        -0.775,
+        1.5065,
+        -14.0351
+      ],
+      "to": [
+        0.775,
+        2.0065,
+        -13.0889
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.7565120755512909,
+        -13.561981460823208
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_16_1",
+      "from": [
+        -0.7,
+        0.4892,
+        -14.2584
+      ],
+      "to": [
+        0.7,
+        0.6092,
+        -14.0284
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5492137925620488,
+        -14.143385671240736
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_17_1",
+      "from": [
+        -1.0,
+        0.9599,
+        -15.306
+      ],
+      "to": [
+        1.0,
+        2.1599,
+        -14.1807
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.5599414771406694,
+        -14.743355128178429
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_17_1",
+      "from": [
+        -0.775,
+        1.9354,
+        -14.7176
+      ],
+      "to": [
+        0.775,
+        2.4354,
+        -13.7715
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.1854066631150935,
+        -14.244563286691442
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_17_1",
+      "from": [
+        -0.7,
+        1.0778,
+        -15.195
+      ],
+      "to": [
+        0.7,
+        1.1978,
+        -14.965
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.1377524766079334,
+        -15.080039621182145
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_18_1",
+      "from": [
+        -1.0,
+        1.6566,
+        -16.0027
+      ],
+      "to": [
+        1.0,
+        2.8566,
+        -14.8774
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.2566448718215715,
+        -15.440058522859331
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_18_1",
+      "from": [
+        -0.775,
+        2.5054,
+        -15.2877
+      ],
+      "to": [
+        0.775,
+        3.0054,
+        -14.3415
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.7554367133085584,
+        -14.814593336884908
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_18_1",
+      "from": [
+        -0.7,
+        1.86,
+        -15.9772
+      ],
+      "to": [
+        0.7,
+        1.98,
+        -15.7472
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.9199603788178554,
+        -15.862247523392067
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_19_1",
+      "from": [
+        -1.0,
+        2.4909,
+        -16.5269
+      ],
+      "to": [
+        1.0,
+        3.6909,
+        -15.4016
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.0909115478827434,
+        -15.964263018770644
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_19_1",
+      "from": [
+        -0.775,
+        3.188,
+        -15.7166
+      ],
+      "to": [
+        0.775,
+        3.688,
+        -14.7704
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.43801853917679,
+        -15.243487924448708
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_19_1",
+      "from": [
+        -0.7,
+        2.7966,
+        -16.5658
+      ],
+      "to": [
+        0.7,
+        2.9166,
+        -16.3358
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.856614328759262,
+        -16.45078620743795
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_20_1",
+      "from": [
+        -1.0,
+        3.4209,
+        -16.8523
+      ],
+      "to": [
+        1.0,
+        4.6209,
+        -15.727
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.020907890592216,
+        -16.289682813600024
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_20_1",
+      "from": [
+        -0.775,
+        3.9489,
+        -15.9828
+      ],
+      "to": [
+        0.775,
+        4.4489,
+        -15.0367
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.198924637757267,
+        -15.509740483854564
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_20_1",
+      "from": [
+        -0.7,
+        3.8407,
+        -16.9311
+      ],
+      "to": [
+        0.7,
+        3.9607,
+        -16.7011
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.900746586255806,
+        -16.81614388617821
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_21_1",
+      "from": [
+        -1.0,
+        4.4,
+        -16.9626
+      ],
+      "to": [
+        1.0,
+        5.6,
+        -15.8374
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        -16.4
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_21_1",
+      "from": [
+        -0.775,
+        4.75,
+        -16.0731
+      ],
+      "to": [
+        0.775,
+        5.25,
+        -15.1269
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        -15.6
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_21_1",
+      "from": [
+        -0.7,
+        4.94,
+        -17.055
+      ],
+      "to": [
+        0.7,
+        5.06,
+        -16.825
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        -16.94
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_22_1",
+      "from": [
+        -1.0,
+        5.3791,
+        -16.8523
+      ],
+      "to": [
+        1.0,
+        6.5791,
+        -15.727
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.9790921094077785,
+        -16.289682813600024
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_22_1",
+      "from": [
+        -0.775,
+        5.5511,
+        -15.9828
+      ],
+      "to": [
+        0.775,
+        6.0511,
+        -15.0367
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.801075362242728,
+        -15.509740483854566
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_22_1",
+      "from": [
+        -0.7,
+        6.0393,
+        -16.9311
+      ],
+      "to": [
+        0.7,
+        6.1593,
+        -16.7011
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.099253413744188,
+        -16.81614388617821
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_23_1",
+      "from": [
+        -1.0,
+        6.3091,
+        -16.5269
+      ],
+      "to": [
+        1.0,
+        7.5091,
+        -15.4016
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.909088452117255,
+        -15.964263018770644
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_23_1",
+      "from": [
+        -0.775,
+        6.312,
+        -15.7166
+      ],
+      "to": [
+        0.775,
+        6.812,
+        -14.7704
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.561981460823208,
+        -15.24348792444871
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_23_1",
+      "from": [
+        -0.7,
+        7.0834,
+        -16.5658
+      ],
+      "to": [
+        0.7,
+        7.2034,
+        -16.3358
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.143385671240736,
+        -16.45078620743795
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_24_1",
+      "from": [
+        -1.0,
+        7.1434,
+        -16.0027
+      ],
+      "to": [
+        1.0,
+        8.3434,
+        -14.8774
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.743355128178427,
+        -15.440058522859331
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_24_1",
+      "from": [
+        -0.775,
+        6.9946,
+        -15.2877
+      ],
+      "to": [
+        0.775,
+        7.4946,
+        -14.3415
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.24456328669144,
+        -14.814593336884908
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_24_1",
+      "from": [
+        -0.7,
+        8.02,
+        -15.9772
+      ],
+      "to": [
+        0.7,
+        8.14,
+        -15.7472
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.080039621182143,
+        -15.862247523392067
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_25_1",
+      "from": [
+        -1.0,
+        7.8401,
+        -15.306
+      ],
+      "to": [
+        1.0,
+        9.0401,
+        -14.1807
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.440058522859331,
+        -14.743355128178429
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_25_1",
+      "from": [
+        -0.775,
+        7.5646,
+        -14.7176
+      ],
+      "to": [
+        0.775,
+        8.0646,
+        -13.7715
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.814593336884907,
+        -14.244563286691442
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_25_1",
+      "from": [
+        -0.7,
+        8.8022,
+        -15.195
+      ],
+      "to": [
+        0.7,
+        8.9222,
+        -14.965
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.862247523392067,
+        -15.080039621182145
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_26_1",
+      "from": [
+        -1.0,
+        8.3643,
+        -14.4717
+      ],
+      "to": [
+        1.0,
+        9.5643,
+        -13.3464
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.964263018770644,
+        -13.909088452117253
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_26_1",
+      "from": [
+        -0.775,
+        7.9935,
+        -14.0351
+      ],
+      "to": [
+        0.775,
+        8.4935,
+        -13.0889
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.24348792444871,
+        -13.561981460823207
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_26_1",
+      "from": [
+        -0.7,
+        9.3908,
+        -14.2584
+      ],
+      "to": [
+        0.7,
+        9.5108,
+        -14.0284
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.450786207437952,
+        -14.143385671240734
+      ]
+    },
+    {
+      "name": "roda_frente_borracha_27_1",
+      "from": [
+        -1.0,
+        8.6897,
+        -13.5417
+      ],
+      "to": [
+        1.0,
+        9.8897,
+        -12.4164
+      ],
+      "material": "borracha",
+      "group": "roda_frente",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.289682813600024,
+        -12.979092109407784
+      ]
+    },
+    {
+      "name": "roda_frente_cromo_27_1",
+      "from": [
+        -0.775,
+        8.2597,
+        -13.2741
+      ],
+      "to": [
+        0.775,
+        8.7597,
+        -12.328
+      ],
+      "material": "cromo",
+      "group": "roda_frente",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.509740483854564,
+        -12.801075362242733
+      ]
+    },
+    {
+      "name": "roda_frente_sulco_27_1",
+      "from": [
+        -0.7,
+        9.7561,
+        -13.2143
+      ],
+      "to": [
+        0.7,
+        9.8761,
+        -12.9843
+      ],
+      "material": "motor",
+      "group": "roda_frente",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.816143886178208,
+        -13.099253413744194
+      ]
+    },
+    {
+      "name": "roda_frente_raio_0_1",
+      "from": [
+        -0.1,
+        5.0,
+        -12.1
+      ],
+      "to": [
+        0.1,
+        8.55,
+        -11.9
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.775,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_raio_1_1",
+      "from": [
+        -0.1,
+        4.661,
+        -11.0567
+      ],
+      "to": [
+        0.1,
+        8.211,
+        -10.8567
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        36.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.436005165015532,
+        -10.95668117718086
+      ]
+    },
+    {
+      "name": "roda_frente_raio_2_1",
+      "from": [
+        -0.1,
+        3.7735,
+        -10.4119
+      ],
+      "to": [
+        0.1,
+        7.3235,
+        -10.2119
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        72.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        5.5485051650155315,
+        -10.311874683576104
+      ]
+    },
+    {
+      "name": "roda_frente_raio_3_1",
+      "from": [
+        -0.1,
+        2.6765,
+        -10.4119
+      ],
+      "to": [
+        0.1,
+        6.2265,
+        -10.2119
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        108.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        4.4514948349844685,
+        -10.311874683576102
+      ]
+    },
+    {
+      "name": "roda_frente_raio_4_1",
+      "from": [
+        -0.1,
+        1.789,
+        -11.0567
+      ],
+      "to": [
+        0.1,
+        5.339,
+        -10.8567
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        144.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.5639948349844683,
+        -10.95668117718086
+      ]
+    },
+    {
+      "name": "roda_frente_raio_5_1",
+      "from": [
+        -0.1,
+        1.45,
+        -12.1
+      ],
+      "to": [
+        0.1,
+        5.0,
+        -11.9
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.225,
+        -12.0
+      ]
+    },
+    {
+      "name": "roda_frente_raio_6_1",
+      "from": [
+        -0.1,
+        1.789,
+        -13.1433
+      ],
+      "to": [
+        0.1,
+        5.339,
+        -12.9433
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        -144.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.5639948349844683,
+        -13.04331882281914
+      ]
+    },
+    {
+      "name": "roda_frente_raio_7_1",
+      "from": [
+        -0.1,
+        2.6765,
+        -13.7881
+      ],
+      "to": [
+        0.1,
+        6.2265,
+        -13.5881
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        -108.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        4.451494834984468,
+        -13.688125316423896
+      ]
+    },
+    {
+      "name": "roda_frente_raio_8_1",
+      "from": [
+        -0.1,
+        3.7735,
+        -13.7881
+      ],
+      "to": [
+        0.1,
+        7.3235,
+        -13.5881
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        -72.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        5.5485051650155315,
+        -13.688125316423898
+      ]
+    },
+    {
+      "name": "roda_frente_raio_9_1",
+      "from": [
+        -0.1,
+        4.661,
+        -13.1433
+      ],
+      "to": [
+        0.1,
+        8.211,
+        -12.9433
+      ],
+      "material": "aco",
+      "group": "roda_frente",
+      "rotation": [
+        -36.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.436005165015532,
+        -13.04331882281914
+      ]
+    },
+    {
+      "name": "roda_frente_cubo_1",
+      "from": [
+        -1.275,
+        4.05,
+        -12.95
+      ],
+      "to": [
+        1.275,
+        5.95,
+        -11.05
+      ],
+      "material": "motor",
+      "group": "roda_frente"
+    },
+    {
+      "name": "roda_frente_eixo_-1_1",
+      "from": [
+        -1.875,
+        4.6,
+        -12.4
+      ],
+      "to": [
+        -1.325,
+        5.4,
+        -11.6
+      ],
+      "material": "cromo",
+      "group": "roda_frente"
+    },
+    {
+      "name": "roda_frente_eixo_1_1",
+      "from": [
+        1.325,
+        4.6,
+        -12.4
+      ],
+      "to": [
+        1.875,
+        5.4,
+        -11.6
+      ],
+      "material": "cromo",
+      "group": "roda_frente"
+    },
+    {
+      "name": "roda_tras_borracha_0_1",
+      "from": [
+        -1.0,
+        8.8,
+        11.4374
+      ],
+      "to": [
+        1.0,
+        10.0,
+        12.5626
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.4,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_0_1",
+      "from": [
+        -0.775,
+        8.35,
+        11.5269
+      ],
+      "to": [
+        0.775,
+        8.85,
+        12.4731
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.6,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_0_1",
+      "from": [
+        -0.7,
+        9.88,
+        11.885
+      ],
+      "to": [
+        0.7,
+        10.0,
+        12.115
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.940000000000001,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_1_1",
+      "from": [
+        -1.0,
+        8.6897,
+        12.4164
+      ],
+      "to": [
+        1.0,
+        9.8897,
+        13.5417
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.289682813600024,
+        12.979092109407784
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_1_1",
+      "from": [
+        -0.775,
+        8.2597,
+        12.328
+      ],
+      "to": [
+        0.775,
+        8.7597,
+        13.2741
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.509740483854564,
+        12.801075362242731
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_1_1",
+      "from": [
+        -0.7,
+        9.7561,
+        12.9843
+      ],
+      "to": [
+        0.7,
+        9.8761,
+        13.2143
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        12.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.81614388617821,
+        13.099253413744194
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_2_1",
+      "from": [
+        -1.0,
+        8.3643,
+        13.3464
+      ],
+      "to": [
+        1.0,
+        9.5643,
+        14.4717
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.964263018770644,
+        13.909088452117256
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_2_1",
+      "from": [
+        -0.775,
+        7.9935,
+        13.0889
+      ],
+      "to": [
+        0.775,
+        8.4935,
+        14.0351
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.24348792444871,
+        13.561981460823208
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_2_1",
+      "from": [
+        -0.7,
+        9.3908,
+        14.0284
+      ],
+      "to": [
+        0.7,
+        9.5108,
+        14.2584
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        25.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.45078620743795,
+        14.143385671240736
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_3_1",
+      "from": [
+        -1.0,
+        7.8401,
+        14.1807
+      ],
+      "to": [
+        1.0,
+        9.0401,
+        15.306
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.440058522859331,
+        14.743355128178427
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_3_1",
+      "from": [
+        -0.775,
+        7.5646,
+        13.7715
+      ],
+      "to": [
+        0.775,
+        8.0646,
+        14.7176
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.814593336884908,
+        14.244563286691442
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_3_1",
+      "from": [
+        -0.7,
+        8.8022,
+        14.965
+      ],
+      "to": [
+        0.7,
+        8.9222,
+        15.195
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        38.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.862247523392067,
+        15.080039621182143
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_4_1",
+      "from": [
+        -1.0,
+        7.1434,
+        14.8774
+      ],
+      "to": [
+        1.0,
+        8.3434,
+        16.0027
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.743355128178428,
+        15.440058522859331
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_4_1",
+      "from": [
+        -0.775,
+        6.9946,
+        14.3415
+      ],
+      "to": [
+        0.775,
+        7.4946,
+        15.2877
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.244563286691442,
+        14.814593336884908
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_4_1",
+      "from": [
+        -0.7,
+        8.02,
+        15.7472
+      ],
+      "to": [
+        0.7,
+        8.14,
+        15.9772
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        51.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.080039621182145,
+        15.862247523392067
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_5_1",
+      "from": [
+        -1.0,
+        6.3091,
+        15.4016
+      ],
+      "to": [
+        1.0,
+        7.5091,
+        16.5269
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.909088452117256,
+        15.964263018770644
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_5_1",
+      "from": [
+        -0.775,
+        6.312,
+        14.7704
+      ],
+      "to": [
+        0.775,
+        6.812,
+        15.7166
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.561981460823209,
+        15.24348792444871
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_5_1",
+      "from": [
+        -0.7,
+        7.0834,
+        16.3358
+      ],
+      "to": [
+        0.7,
+        7.2034,
+        16.5658
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        64.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.143385671240738,
+        16.45078620743795
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_6_1",
+      "from": [
+        -1.0,
+        5.3791,
+        15.727
+      ],
+      "to": [
+        1.0,
+        6.5791,
+        16.8523
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.979092109407784,
+        16.289682813600024
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_6_1",
+      "from": [
+        -0.775,
+        5.5511,
+        15.0367
+      ],
+      "to": [
+        0.775,
+        6.0511,
+        15.9828
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.801075362242732,
+        15.509740483854564
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_6_1",
+      "from": [
+        -0.7,
+        6.0393,
+        16.7011
+      ],
+      "to": [
+        0.7,
+        6.1593,
+        16.9311
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        77.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.099253413744194,
+        16.81614388617821
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_7_1",
+      "from": [
+        -1.0,
+        4.4,
+        15.8374
+      ],
+      "to": [
+        1.0,
+        5.6,
+        16.9626
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        16.4
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_7_1",
+      "from": [
+        -0.775,
+        4.75,
+        15.1269
+      ],
+      "to": [
+        0.775,
+        5.25,
+        16.0731
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        15.6
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_7_1",
+      "from": [
+        -0.7,
+        4.94,
+        16.825
+      ],
+      "to": [
+        0.7,
+        5.06,
+        17.055
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        90.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.0,
+        16.94
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_8_1",
+      "from": [
+        -1.0,
+        3.4209,
+        15.727
+      ],
+      "to": [
+        1.0,
+        4.6209,
+        16.8523
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.020907890592217,
+        16.289682813600024
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_8_1",
+      "from": [
+        -0.775,
+        3.9489,
+        15.0367
+      ],
+      "to": [
+        0.775,
+        4.4489,
+        15.9828
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.198924637757268,
+        15.509740483854564
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_8_1",
+      "from": [
+        -0.7,
+        3.8407,
+        16.7011
+      ],
+      "to": [
+        0.7,
+        3.9607,
+        16.9311
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        102.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.9007465862558073,
+        16.81614388617821
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_9_1",
+      "from": [
+        -1.0,
+        2.4909,
+        15.4016
+      ],
+      "to": [
+        1.0,
+        3.6909,
+        16.5269
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.0909115478827447,
+        15.964263018770644
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_9_1",
+      "from": [
+        -0.775,
+        3.188,
+        14.7704
+      ],
+      "to": [
+        0.775,
+        3.688,
+        15.7166
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.438018539176791,
+        15.24348792444871
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_9_1",
+      "from": [
+        -0.7,
+        2.7966,
+        16.3358
+      ],
+      "to": [
+        0.7,
+        2.9166,
+        16.5658
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        115.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.856614328759263,
+        16.45078620743795
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_10_1",
+      "from": [
+        -1.0,
+        1.6566,
+        14.8774
+      ],
+      "to": [
+        1.0,
+        2.8566,
+        16.0027
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.2566448718215724,
+        15.440058522859331
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_10_1",
+      "from": [
+        -0.775,
+        2.5054,
+        14.3415
+      ],
+      "to": [
+        0.775,
+        3.0054,
+        15.2877
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.7554367133085593,
+        14.814593336884908
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_10_1",
+      "from": [
+        -0.7,
+        1.86,
+        15.7472
+      ],
+      "to": [
+        0.7,
+        1.98,
+        15.9772
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        128.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.9199603788178563,
+        15.862247523392067
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_11_1",
+      "from": [
+        -1.0,
+        0.9599,
+        14.1807
+      ],
+      "to": [
+        1.0,
+        2.1599,
+        15.306
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.5599414771406699,
+        14.743355128178429
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_11_1",
+      "from": [
+        -0.775,
+        1.9354,
+        13.7715
+      ],
+      "to": [
+        0.775,
+        2.4354,
+        14.7176
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.185406663115094,
+        14.244563286691442
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_11_1",
+      "from": [
+        -0.7,
+        1.0778,
+        14.965
+      ],
+      "to": [
+        0.7,
+        1.1978,
+        15.195
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        141.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.1377524766079343,
+        15.080039621182145
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_12_1",
+      "from": [
+        -1.0,
+        0.4357,
+        13.3464
+      ],
+      "to": [
+        1.0,
+        1.6357,
+        14.4717
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.035736981229356,
+        13.909088452117256
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_12_1",
+      "from": [
+        -0.775,
+        1.5065,
+        13.0889
+      ],
+      "to": [
+        0.775,
+        2.0065,
+        14.0351
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.7565120755512913,
+        13.56198146082321
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_12_1",
+      "from": [
+        -0.7,
+        0.4892,
+        14.0284
+      ],
+      "to": [
+        0.7,
+        0.6092,
+        14.2584
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        154.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5492137925620497,
+        14.143385671240738
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_13_1",
+      "from": [
+        -1.0,
+        0.1103,
+        12.4164
+      ],
+      "to": [
+        1.0,
+        1.3103,
+        13.5417
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.7103171863999753,
+        12.979092109407782
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_13_1",
+      "from": [
+        -0.775,
+        1.2403,
+        12.328
+      ],
+      "to": [
+        0.775,
+        1.7403,
+        13.2741
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4902595161454344,
+        12.801075362242731
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_13_1",
+      "from": [
+        -0.7,
+        0.1239,
+        12.9843
+      ],
+      "to": [
+        0.7,
+        0.2439,
+        13.2143
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        167.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.18385611382179068,
+        13.099253413744192
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_14_1",
+      "from": [
+        -1.0,
+        -0.0,
+        11.4374
+      ],
+      "to": [
+        1.0,
+        1.2,
+        12.5626
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5999999999999996,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_14_1",
+      "from": [
+        -0.775,
+        1.15,
+        11.5269
+      ],
+      "to": [
+        0.775,
+        1.65,
+        12.4731
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_14_1",
+      "from": [
+        -0.7,
+        -0.0,
+        11.885
+      ],
+      "to": [
+        0.7,
+        0.12,
+        12.115
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.05999999999999961,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_15_1",
+      "from": [
+        -1.0,
+        0.1103,
+        10.4583
+      ],
+      "to": [
+        1.0,
+        1.3103,
+        11.5836
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.7103171863999753,
+        11.02090789059222
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_15_1",
+      "from": [
+        -0.775,
+        1.2403,
+        10.7259
+      ],
+      "to": [
+        0.775,
+        1.7403,
+        11.672
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.4902595161454344,
+        11.19892463775727
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_15_1",
+      "from": [
+        -0.7,
+        0.1239,
+        10.7857
+      ],
+      "to": [
+        0.7,
+        0.2439,
+        11.0157
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        192.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.18385611382179068,
+        10.90074658625581
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_16_1",
+      "from": [
+        -1.0,
+        0.4357,
+        9.5283
+      ],
+      "to": [
+        1.0,
+        1.6357,
+        10.6536
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.0357369812293555,
+        10.090911547882744
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_16_1",
+      "from": [
+        -0.775,
+        1.5065,
+        9.9649
+      ],
+      "to": [
+        0.775,
+        2.0065,
+        10.9111
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.7565120755512909,
+        10.438018539176792
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_16_1",
+      "from": [
+        -0.7,
+        0.4892,
+        9.7416
+      ],
+      "to": [
+        0.7,
+        0.6092,
+        9.9716
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        205.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0.5492137925620488,
+        9.856614328759264
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_17_1",
+      "from": [
+        -1.0,
+        0.9599,
+        8.694
+      ],
+      "to": [
+        1.0,
+        2.1599,
+        9.8193
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.5599414771406694,
+        9.256644871821571
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_17_1",
+      "from": [
+        -0.775,
+        1.9354,
+        9.2824
+      ],
+      "to": [
+        0.775,
+        2.4354,
+        10.2285
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.1854066631150935,
+        9.755436713308558
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_17_1",
+      "from": [
+        -0.7,
+        1.0778,
+        8.805
+      ],
+      "to": [
+        0.7,
+        1.1978,
+        9.035
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        218.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.1377524766079334,
+        8.919960378817855
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_18_1",
+      "from": [
+        -1.0,
+        1.6566,
+        7.9973
+      ],
+      "to": [
+        1.0,
+        2.8566,
+        9.1226
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.2566448718215715,
+        8.559941477140669
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_18_1",
+      "from": [
+        -0.775,
+        2.5054,
+        8.7123
+      ],
+      "to": [
+        0.775,
+        3.0054,
+        9.6585
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.7554367133085584,
+        9.185406663115092
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_18_1",
+      "from": [
+        -0.7,
+        1.86,
+        8.0228
+      ],
+      "to": [
+        0.7,
+        1.98,
+        8.2528
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        231.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        1.9199603788178554,
+        8.137752476607933
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_19_1",
+      "from": [
+        -1.0,
+        2.4909,
+        7.4731
+      ],
+      "to": [
+        1.0,
+        3.6909,
+        8.5984
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.0909115478827434,
+        8.035736981229356
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_19_1",
+      "from": [
+        -0.775,
+        3.188,
+        8.2834
+      ],
+      "to": [
+        0.775,
+        3.688,
+        9.2296
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.43801853917679,
+        8.756512075551292
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_19_1",
+      "from": [
+        -0.7,
+        2.7966,
+        7.4342
+      ],
+      "to": [
+        0.7,
+        2.9166,
+        7.6642
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        244.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        2.856614328759262,
+        7.54921379256205
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_20_1",
+      "from": [
+        -1.0,
+        3.4209,
+        7.1477
+      ],
+      "to": [
+        1.0,
+        4.6209,
+        8.273
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.020907890592216,
+        7.710317186399975
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_20_1",
+      "from": [
+        -0.775,
+        3.9489,
+        8.0172
+      ],
+      "to": [
+        0.775,
+        4.4489,
+        8.9633
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.198924637757267,
+        8.490259516145436
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_20_1",
+      "from": [
+        -0.7,
+        3.8407,
+        7.0689
+      ],
+      "to": [
+        0.7,
+        3.9607,
+        7.2989
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        257.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        3.900746586255806,
+        7.183856113821791
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_21_1",
+      "from": [
+        -1.0,
+        4.4,
+        7.0374
+      ],
+      "to": [
+        1.0,
+        5.6,
+        8.1626
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        7.6
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_21_1",
+      "from": [
+        -0.775,
+        4.75,
+        7.9269
+      ],
+      "to": [
+        0.775,
+        5.25,
+        8.8731
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        8.4
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_21_1",
+      "from": [
+        -0.7,
+        4.94,
+        6.945
+      ],
+      "to": [
+        0.7,
+        5.06,
+        7.175
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        270.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        4.999999999999999,
+        7.06
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_22_1",
+      "from": [
+        -1.0,
+        5.3791,
+        7.1477
+      ],
+      "to": [
+        1.0,
+        6.5791,
+        8.273
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.9790921094077785,
+        7.710317186399974
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_22_1",
+      "from": [
+        -0.775,
+        5.5511,
+        8.0172
+      ],
+      "to": [
+        0.775,
+        6.0511,
+        8.9633
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        5.801075362242728,
+        8.490259516145434
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_22_1",
+      "from": [
+        -0.7,
+        6.0393,
+        7.0689
+      ],
+      "to": [
+        0.7,
+        6.1593,
+        7.2989
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        282.857,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.099253413744188,
+        7.18385611382179
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_23_1",
+      "from": [
+        -1.0,
+        6.3091,
+        7.4731
+      ],
+      "to": [
+        1.0,
+        7.5091,
+        8.5984
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.909088452117255,
+        8.035736981229356
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_23_1",
+      "from": [
+        -0.775,
+        6.312,
+        8.2834
+      ],
+      "to": [
+        0.775,
+        6.812,
+        9.2296
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        6.561981460823208,
+        8.75651207555129
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_23_1",
+      "from": [
+        -0.7,
+        7.0834,
+        7.4342
+      ],
+      "to": [
+        0.7,
+        7.2034,
+        7.6642
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        295.714,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.143385671240736,
+        7.549213792562049
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_24_1",
+      "from": [
+        -1.0,
+        7.1434,
+        7.9973
+      ],
+      "to": [
+        1.0,
+        8.3434,
+        9.1226
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.743355128178427,
+        8.559941477140669
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_24_1",
+      "from": [
+        -0.775,
+        6.9946,
+        8.7123
+      ],
+      "to": [
+        0.775,
+        7.4946,
+        9.6585
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.24456328669144,
+        9.185406663115092
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_24_1",
+      "from": [
+        -0.7,
+        8.02,
+        8.0228
+      ],
+      "to": [
+        0.7,
+        8.14,
+        8.2528
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        308.571,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.080039621182143,
+        8.137752476607933
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_25_1",
+      "from": [
+        -1.0,
+        7.8401,
+        8.694
+      ],
+      "to": [
+        1.0,
+        9.0401,
+        9.8193
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.440058522859331,
+        9.256644871821571
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_25_1",
+      "from": [
+        -0.775,
+        7.5646,
+        9.2824
+      ],
+      "to": [
+        0.775,
+        8.0646,
+        10.2285
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.814593336884907,
+        9.755436713308558
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_25_1",
+      "from": [
+        -0.7,
+        8.8022,
+        8.805
+      ],
+      "to": [
+        0.7,
+        8.9222,
+        9.035
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        321.429,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.862247523392067,
+        8.919960378817855
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_26_1",
+      "from": [
+        -1.0,
+        8.3643,
+        9.5283
+      ],
+      "to": [
+        1.0,
+        9.5643,
+        10.6536
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.964263018770644,
+        10.090911547882747
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_26_1",
+      "from": [
+        -0.775,
+        7.9935,
+        9.9649
+      ],
+      "to": [
+        0.775,
+        8.4935,
+        10.9111
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.24348792444871,
+        10.438018539176793
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_26_1",
+      "from": [
+        -0.7,
+        9.3908,
+        9.7416
+      ],
+      "to": [
+        0.7,
+        9.5108,
+        9.9716
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        334.286,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.450786207437952,
+        9.856614328759266
+      ]
+    },
+    {
+      "name": "roda_tras_borracha_27_1",
+      "from": [
+        -1.0,
+        8.6897,
+        10.4583
+      ],
+      "to": [
+        1.0,
+        9.8897,
+        11.5836
+      ],
+      "material": "borracha",
+      "group": "roda_tras",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.289682813600024,
+        11.020907890592216
+      ]
+    },
+    {
+      "name": "roda_tras_cromo_27_1",
+      "from": [
+        -0.775,
+        8.2597,
+        10.7259
+      ],
+      "to": [
+        0.775,
+        8.7597,
+        11.672
+      ],
+      "material": "cromo",
+      "group": "roda_tras",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.509740483854564,
+        11.198924637757267
+      ]
+    },
+    {
+      "name": "roda_tras_sulco_27_1",
+      "from": [
+        -0.7,
+        9.7561,
+        10.7857
+      ],
+      "to": [
+        0.7,
+        9.8761,
+        11.0157
+      ],
+      "material": "motor",
+      "group": "roda_tras",
+      "rotation": [
+        347.143,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.816143886178208,
+        10.900746586255806
+      ]
+    },
+    {
+      "name": "roda_tras_raio_0_1",
+      "from": [
+        -0.1,
+        5.0,
+        11.9
+      ],
+      "to": [
+        0.1,
+        8.55,
+        12.1
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.775,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_raio_1_1",
+      "from": [
+        -0.1,
+        4.661,
+        12.9433
+      ],
+      "to": [
+        0.1,
+        8.211,
+        13.1433
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        36.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.436005165015532,
+        13.04331882281914
+      ]
+    },
+    {
+      "name": "roda_tras_raio_2_1",
+      "from": [
+        -0.1,
+        3.7735,
+        13.5881
+      ],
+      "to": [
+        0.1,
+        7.3235,
+        13.7881
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        72.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        5.5485051650155315,
+        13.688125316423896
+      ]
+    },
+    {
+      "name": "roda_tras_raio_3_1",
+      "from": [
+        -0.1,
+        2.6765,
+        13.5881
+      ],
+      "to": [
+        0.1,
+        6.2265,
+        13.7881
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        108.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        4.4514948349844685,
+        13.688125316423898
+      ]
+    },
+    {
+      "name": "roda_tras_raio_4_1",
+      "from": [
+        -0.1,
+        1.789,
+        12.9433
+      ],
+      "to": [
+        0.1,
+        5.339,
+        13.1433
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        144.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.5639948349844683,
+        13.04331882281914
+      ]
+    },
+    {
+      "name": "roda_tras_raio_5_1",
+      "from": [
+        -0.1,
+        1.45,
+        11.9
+      ],
+      "to": [
+        0.1,
+        5.0,
+        12.1
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        180.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.225,
+        12.0
+      ]
+    },
+    {
+      "name": "roda_tras_raio_6_1",
+      "from": [
+        -0.1,
+        1.789,
+        10.8567
+      ],
+      "to": [
+        0.1,
+        5.339,
+        11.0567
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        -144.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        3.5639948349844683,
+        10.95668117718086
+      ]
+    },
+    {
+      "name": "roda_tras_raio_7_1",
+      "from": [
+        -0.1,
+        2.6765,
+        10.2119
+      ],
+      "to": [
+        0.1,
+        6.2265,
+        10.4119
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        -108.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        4.451494834984468,
+        10.311874683576104
+      ]
+    },
+    {
+      "name": "roda_tras_raio_8_1",
+      "from": [
+        -0.1,
+        3.7735,
+        10.2119
+      ],
+      "to": [
+        0.1,
+        7.3235,
+        10.4119
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        -72.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        5.5485051650155315,
+        10.311874683576102
+      ]
+    },
+    {
+      "name": "roda_tras_raio_9_1",
+      "from": [
+        -0.1,
+        4.661,
+        10.8567
+      ],
+      "to": [
+        0.1,
+        8.211,
+        11.0567
+      ],
+      "material": "aco",
+      "group": "roda_tras",
+      "rotation": [
+        -36.0,
+        0,
+        0
+      ],
+      "origin": [
+        0.0,
+        6.436005165015532,
+        10.95668117718086
+      ]
+    },
+    {
+      "name": "roda_tras_cubo_1",
+      "from": [
+        -1.275,
+        4.05,
+        11.05
+      ],
+      "to": [
+        1.275,
+        5.95,
+        12.95
+      ],
+      "material": "motor",
+      "group": "roda_tras"
+    },
+    {
+      "name": "roda_tras_eixo_-1_1",
+      "from": [
+        -1.875,
+        4.6,
+        11.6
+      ],
+      "to": [
+        -1.325,
+        5.4,
+        12.4
+      ],
+      "material": "cromo",
+      "group": "roda_tras"
+    },
+    {
+      "name": "roda_tras_eixo_1_1",
+      "from": [
+        1.325,
+        4.6,
+        11.6
+      ],
+      "to": [
+        1.875,
+        5.4,
+        12.4
+      ],
+      "material": "cromo",
+      "group": "roda_tras"
+    },
+    {
+      "name": "quadro_superior_1",
+      "from": [
+        -1.7,
+        2.3759,
+        0.65
+      ],
+      "to": [
+        -1.0,
+        20.6241,
+        1.35
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        99.462,
+        0,
+        0
+      ],
+      "origin": [
+        -1.35,
+        11.5,
+        1.0
+      ]
+    },
+    {
+      "name": "quadro_berco_frente_1",
+      "from": [
+        -1.675,
+        3.6328,
+        -5.825
+      ],
+      "to": [
+        -1.025,
+        13.6672,
+        -5.175
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        150.113,
+        0,
+        0
+      ],
+      "origin": [
+        -1.35,
+        8.65,
+        -5.5
+      ]
+    },
+    {
+      "name": "quadro_berco_base_1",
+      "from": [
+        -1.675,
+        -0.5444,
+        2.175
+      ],
+      "to": [
+        -1.025,
+        10.5444,
+        2.825
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        82.747,
+        0,
+        0
+      ],
+      "origin": [
+        -1.35,
+        5.0,
+        2.5
+      ]
+    },
+    {
+      "name": "quadro_escora_1",
+      "from": [
+        -1.65,
+        5.4788,
+        8.7
+      ],
+      "to": [
+        -1.05,
+        10.2212,
+        9.3
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        24.944,
+        0,
+        0
+      ],
+      "origin": [
+        -1.35,
+        7.85,
+        9.0
+      ]
+    },
+    {
+      "name": "balanca_1",
+      "from": [
+        -1.925,
+        1.38,
+        7.675
+      ],
+      "to": [
+        -1.275,
+        9.42,
+        8.325
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        95.711,
+        0,
+        0
+      ],
+      "origin": [
+        -1.6,
+        5.4,
+        8.0
+      ]
+    },
+    {
+      "name": "garfo_cromo_1",
+      "from": [
+        -2.025,
+        4.7351,
+        -10.725
+      ],
+      "to": [
+        -1.375,
+        14.6649,
+        -10.075
+      ],
+      "material": "cromo",
+      "group": "direcao",
+      "rotation": [
+        18.8,
+        0,
+        0
+      ],
+      "origin": [
+        -1.7,
+        9.7,
+        -10.4
+      ]
+    },
+    {
+      "name": "garfo_bainha_1",
+      "from": [
+        -2.175,
+        4.881,
+        -11.775
+      ],
+      "to": [
+        -1.225,
+        9.119,
+        -10.825
+      ],
+      "material": "pintura",
+      "group": "direcao",
+      "rotation": [
+        19.29,
+        0,
+        0
+      ],
+      "origin": [
+        -1.7,
+        7.0,
+        -11.3
+      ]
+    },
+    {
+      "name": "amortecedor_1",
+      "from": [
+        -2.425,
+        5.0698,
+        9.175
+      ],
+      "to": [
+        -1.775,
+        10.7302,
+        9.825
+      ],
+      "material": "cromo",
+      "group": "chassis",
+      "rotation": [
+        -32.005,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        7.9,
+        9.5
+      ]
+    },
+    {
+      "name": "mola_traseira_1",
+      "from": [
+        -2.625,
+        6.885,
+        9.575
+      ],
+      "to": [
+        -1.575,
+        7.115,
+        10.625
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        7.0,
+        10.1
+      ]
+    },
+    {
+      "name": "mola_traseira_2",
+      "from": [
+        -2.625,
+        7.2279,
+        9.3607
+      ],
+      "to": [
+        -1.575,
+        7.4579,
+        10.4107
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        7.3428571428571425,
+        9.885714285714286
+      ]
+    },
+    {
+      "name": "mola_traseira_3",
+      "from": [
+        -2.625,
+        7.5707,
+        9.1464
+      ],
+      "to": [
+        -1.575,
+        7.8007,
+        10.1964
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        7.685714285714286,
+        9.67142857142857
+      ]
+    },
+    {
+      "name": "mola_traseira_4",
+      "from": [
+        -2.625,
+        7.9136,
+        8.9321
+      ],
+      "to": [
+        -1.575,
+        8.1436,
+        9.9821
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        8.028571428571428,
+        9.457142857142857
+      ]
+    },
+    {
+      "name": "mola_traseira_5",
+      "from": [
+        -2.625,
+        8.2564,
+        8.7179
+      ],
+      "to": [
+        -1.575,
+        8.4864,
+        9.7679
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        8.371428571428572,
+        9.242857142857142
+      ]
+    },
+    {
+      "name": "mola_traseira_6",
+      "from": [
+        -2.625,
+        8.5993,
+        8.5036
+      ],
+      "to": [
+        -1.575,
+        8.8293,
+        9.5536
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        8.714285714285714,
+        9.028571428571428
+      ]
+    },
+    {
+      "name": "mola_traseira_7",
+      "from": [
+        -2.625,
+        8.9421,
+        8.2893
+      ],
+      "to": [
+        -1.575,
+        9.1721,
+        9.3393
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        -2.1,
+        9.057142857142857,
+        8.814285714285713
+      ]
+    },
+    {
+      "name": "quadro_superior_2",
+      "from": [
+        1.0,
+        2.3759,
+        0.65
+      ],
+      "to": [
+        1.7,
+        20.6241,
+        1.35
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        99.462,
+        0,
+        0
+      ],
+      "origin": [
+        1.35,
+        11.5,
+        1.0
+      ]
+    },
+    {
+      "name": "quadro_berco_frente_2",
+      "from": [
+        1.025,
+        3.6328,
+        -5.825
+      ],
+      "to": [
+        1.675,
+        13.6672,
+        -5.175
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        150.113,
+        0,
+        0
+      ],
+      "origin": [
+        1.35,
+        8.65,
+        -5.5
+      ]
+    },
+    {
+      "name": "quadro_berco_base_2",
+      "from": [
+        1.025,
+        -0.5444,
+        2.175
+      ],
+      "to": [
+        1.675,
+        10.5444,
+        2.825
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        82.747,
+        0,
+        0
+      ],
+      "origin": [
+        1.35,
+        5.0,
+        2.5
+      ]
+    },
+    {
+      "name": "quadro_escora_2",
+      "from": [
+        1.05,
+        5.4788,
+        8.7
+      ],
+      "to": [
+        1.65,
+        10.2212,
+        9.3
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        24.944,
+        0,
+        0
+      ],
+      "origin": [
+        1.35,
+        7.85,
+        9.0
+      ]
+    },
+    {
+      "name": "balanca_2",
+      "from": [
+        1.275,
+        1.38,
+        7.675
+      ],
+      "to": [
+        1.925,
+        9.42,
+        8.325
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        95.711,
+        0,
+        0
+      ],
+      "origin": [
+        1.6,
+        5.4,
+        8.0
+      ]
+    },
+    {
+      "name": "garfo_cromo_2",
+      "from": [
+        1.375,
+        4.7351,
+        -10.725
+      ],
+      "to": [
+        2.025,
+        14.6649,
+        -10.075
+      ],
+      "material": "cromo",
+      "group": "direcao",
+      "rotation": [
+        18.8,
+        0,
+        0
+      ],
+      "origin": [
+        1.7,
+        9.7,
+        -10.4
+      ]
+    },
+    {
+      "name": "garfo_bainha_2",
+      "from": [
+        1.225,
+        4.881,
+        -11.775
+      ],
+      "to": [
+        2.175,
+        9.119,
+        -10.825
+      ],
+      "material": "pintura",
+      "group": "direcao",
+      "rotation": [
+        19.29,
+        0,
+        0
+      ],
+      "origin": [
+        1.7,
+        7.0,
+        -11.3
+      ]
+    },
+    {
+      "name": "amortecedor_2",
+      "from": [
+        1.775,
+        5.0698,
+        9.175
+      ],
+      "to": [
+        2.425,
+        10.7302,
+        9.825
+      ],
+      "material": "cromo",
+      "group": "chassis",
+      "rotation": [
+        -32.005,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        7.9,
+        9.5
+      ]
+    },
+    {
+      "name": "mola_traseira_8",
+      "from": [
+        1.575,
+        6.885,
+        9.575
+      ],
+      "to": [
+        2.625,
+        7.115,
+        10.625
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        7.0,
+        10.1
+      ]
+    },
+    {
+      "name": "mola_traseira_9",
+      "from": [
+        1.575,
+        7.2279,
+        9.3607
+      ],
+      "to": [
+        2.625,
+        7.4579,
+        10.4107
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        7.3428571428571425,
+        9.885714285714286
+      ]
+    },
+    {
+      "name": "mola_traseira_10",
+      "from": [
+        1.575,
+        7.5707,
+        9.1464
+      ],
+      "to": [
+        2.625,
+        7.8007,
+        10.1964
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        7.685714285714286,
+        9.67142857142857
+      ]
+    },
+    {
+      "name": "mola_traseira_11",
+      "from": [
+        1.575,
+        7.9136,
+        8.9321
+      ],
+      "to": [
+        2.625,
+        8.1436,
+        9.9821
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        8.028571428571428,
+        9.457142857142857
+      ]
+    },
+    {
+      "name": "mola_traseira_12",
+      "from": [
+        1.575,
+        8.2564,
+        8.7179
+      ],
+      "to": [
+        2.625,
+        8.4864,
+        9.7679
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        8.371428571428572,
+        9.242857142857142
+      ]
+    },
+    {
+      "name": "mola_traseira_13",
+      "from": [
+        1.575,
+        8.5993,
+        8.5036
+      ],
+      "to": [
+        2.625,
+        8.8293,
+        9.5536
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        8.714285714285714,
+        9.028571428571428
+      ]
+    },
+    {
+      "name": "mola_traseira_14",
+      "from": [
+        1.575,
+        8.9421,
+        8.2893
+      ],
+      "to": [
+        2.625,
+        9.1721,
+        9.3393
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        32,
+        0,
+        0
+      ],
+      "origin": [
+        2.1,
+        9.057142857142857,
+        8.814285714285713
+      ]
+    },
+    {
+      "name": "carter_1",
+      "from": [
+        -2.05,
+        4.75,
+        -2.2
+      ],
+      "to": [
+        2.05,
+        7.85,
+        2.6
+      ],
+      "material": "motor",
+      "group": "chassis"
+    },
+    {
+      "name": "cilindro_1",
+      "from": [
+        -1.4,
+        7.4,
+        -3.0
+      ],
+      "to": [
+        1.4,
+        10.6,
+        -0.2
+      ],
+      "material": "motor",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_1",
+      "from": [
+        -1.6,
+        7.71,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        7.89,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        7.8,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_2",
+      "from": [
+        -1.6,
+        8.13,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        8.31,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.22,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_3",
+      "from": [
+        -1.6,
+        8.55,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        8.73,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.64,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_4",
+      "from": [
+        -1.6,
+        8.97,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        9.15,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.06,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_5",
+      "from": [
+        -1.6,
+        9.39,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        9.57,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.48,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_6",
+      "from": [
+        -1.6,
+        9.81,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        9.99,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.9,
+        -1.6
+      ]
+    },
+    {
+      "name": "aleta_7",
+      "from": [
+        -1.6,
+        10.23,
+        -3.15
+      ],
+      "to": [
+        1.6,
+        10.41,
+        -0.05
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -13,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.32,
+        -1.6
+      ]
+    },
+    {
+      "name": "tampa_motor_1",
+      "from": [
+        -2.375,
+        5.35,
+        -0.3
+      ],
+      "to": [
+        -1.925,
+        7.65,
+        2.5
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_1",
+      "from": [
+        -2.5,
+        5.58,
+        0.08
+      ],
+      "to": [
+        -2.34,
+        5.82,
+        0.32
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_2",
+      "from": [
+        -2.5,
+        5.58,
+        1.88
+      ],
+      "to": [
+        -2.34,
+        5.82,
+        2.12
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_3",
+      "from": [
+        -2.5,
+        7.18,
+        0.08
+      ],
+      "to": [
+        -2.34,
+        7.42,
+        0.32
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_4",
+      "from": [
+        -2.5,
+        7.18,
+        1.88
+      ],
+      "to": [
+        -2.34,
+        7.42,
+        2.12
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "pedaleira_1",
+      "from": [
+        -4.1,
+        5.425,
+        2.0
+      ],
+      "to": [
+        -2.1,
+        5.975,
+        3.0
+      ],
+      "material": "borracha",
+      "group": "chassis"
+    },
+    {
+      "name": "haste_pedaleira_1",
+      "from": [
+        -2.9,
+        5.525,
+        2.325
+      ],
+      "to": [
+        -1.3,
+        5.875,
+        2.675
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "tampa_motor_2",
+      "from": [
+        1.925,
+        5.35,
+        -0.3
+      ],
+      "to": [
+        2.375,
+        7.65,
+        2.5
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_5",
+      "from": [
+        2.34,
+        5.58,
+        0.08
+      ],
+      "to": [
+        2.5,
+        5.82,
+        0.32
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_6",
+      "from": [
+        2.34,
+        5.58,
+        1.88
+      ],
+      "to": [
+        2.5,
+        5.82,
+        2.12
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_7",
+      "from": [
+        2.34,
+        7.18,
+        0.08
+      ],
+      "to": [
+        2.5,
+        7.42,
+        0.32
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "parafuso_motor_8",
+      "from": [
+        2.34,
+        7.18,
+        1.88
+      ],
+      "to": [
+        2.5,
+        7.42,
+        2.12
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "pedaleira_2",
+      "from": [
+        2.1,
+        5.425,
+        2.0
+      ],
+      "to": [
+        4.1,
+        5.975,
+        3.0
+      ],
+      "material": "borracha",
+      "group": "chassis"
+    },
+    {
+      "name": "haste_pedaleira_2",
+      "from": [
+        1.3,
+        5.525,
+        2.325
+      ],
+      "to": [
+        2.9,
+        5.875,
+        2.675
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "escape_curva_1",
+      "from": [
+        2.075,
+        3.2725,
+        -2.3
+      ],
+      "to": [
+        2.675,
+        8.2275,
+        -1.7
+      ],
+      "material": "ferrugem",
+      "group": "chassis",
+      "rotation": [
+        156.038,
+        0,
+        0
+      ],
+      "origin": [
+        2.375,
+        5.75,
+        -2.0
+      ]
+    },
+    {
+      "name": "escape_tubo_1",
+      "from": [
+        2.3,
+        -1.6611,
+        4.15
+      ],
+      "to": [
+        3.0,
+        9.3611,
+        4.85
+      ],
+      "material": "cromo",
+      "group": "chassis",
+      "rotation": [
+        86.359,
+        0,
+        0
+      ],
+      "origin": [
+        2.65,
+        3.85,
+        4.5
+      ]
+    },
+    {
+      "name": "silenciador_1",
+      "from": [
+        2.1,
+        3.85,
+        7.6
+      ],
+      "to": [
+        3.3,
+        5.15,
+        13.8
+      ],
+      "material": "cromo",
+      "group": "chassis",
+      "rotation": [
+        4,
+        0,
+        0
+      ],
+      "origin": [
+        2.7,
+        4.5,
+        10.7
+      ]
+    },
+    {
+      "name": "boca_escape_1",
+      "from": [
+        2.325,
+        4.345,
+        13.775
+      ],
+      "to": [
+        3.075,
+        5.095,
+        13.925
+      ],
+      "material": "painel",
+      "group": "chassis"
+    },
+    {
+      "name": "corrente_capa_1",
+      "from": [
+        -2.44,
+        4.9,
+        3.7
+      ],
+      "to": [
+        -1.96,
+        5.9,
+        12.7
+      ],
+      "material": "pintura",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_1",
+      "from": [
+        -2.56,
+        5.815,
+        4.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        5.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_2",
+      "from": [
+        -2.56,
+        5.815,
+        5.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        6.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_3",
+      "from": [
+        -2.56,
+        5.815,
+        6.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        7.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_4",
+      "from": [
+        -2.56,
+        5.815,
+        7.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        8.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_5",
+      "from": [
+        -2.56,
+        5.815,
+        8.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        9.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_6",
+      "from": [
+        -2.56,
+        5.815,
+        9.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        10.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "elo_corrente_7",
+      "from": [
+        -2.56,
+        5.815,
+        10.725
+      ],
+      "to": [
+        -2.42,
+        5.985,
+        11.275
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "caixa_filtro_1",
+      "from": [
+        -1.85,
+        7.45,
+        2.25
+      ],
+      "to": [
+        1.85,
+        10.75,
+        5.75
+      ],
+      "material": "painel",
+      "group": "chassis"
+    },
+    {
+      "name": "tampa_lateral_1",
+      "from": [
+        -2.2,
+        7.9,
+        2.45
+      ],
+      "to": [
+        -1.9,
+        10.3,
+        6.15
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        5,
+        0,
+        0
+      ],
+      "origin": [
+        -2.05,
+        9.1,
+        4.3
+      ]
+    },
+    {
+      "name": "emblema_generico_1",
+      "from": [
+        -2.27,
+        9.375,
+        3.7
+      ],
+      "to": [
+        -2.19,
+        9.625,
+        4.9
+      ],
+      "material": "pintura",
+      "group": "chassis"
+    },
+    {
+      "name": "tampa_lateral_2",
+      "from": [
+        1.9,
+        7.9,
+        2.45
+      ],
+      "to": [
+        2.2,
+        10.3,
+        6.15
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        5,
+        0,
+        0
+      ],
+      "origin": [
+        2.05,
+        9.1,
+        4.3
+      ]
+    },
+    {
+      "name": "emblema_generico_2",
+      "from": [
+        2.19,
+        9.375,
+        3.7
+      ],
+      "to": [
+        2.27,
+        9.625,
+        4.9
+      ],
+      "material": "pintura",
+      "group": "chassis"
+    },
+    {
+      "name": "tanque_base_1",
+      "from": [
+        -2.25,
+        10.65,
+        -7.7
+      ],
+      "to": [
+        2.25,
+        13.35,
+        0.3
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        12,
+        -3.7
+      ]
+    },
+    {
+      "name": "tanque_ombro_1",
+      "from": [
+        -1.775,
+        12.6,
+        -7.35
+      ],
+      "to": [
+        1.775,
+        14.0,
+        -0.65
+      ],
+      "material": "pintura",
+      "group": "chassis",
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        13.3,
+        -4.0
+      ]
+    },
+    {
+      "name": "faixa_tanque_1",
+      "from": [
+        -2.375,
+        12.1,
+        -6.25
+      ],
+      "to": [
+        -2.245,
+        12.7,
+        -0.95
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "origin": [
+        -2.31,
+        12.4,
+        -3.6
+      ]
+    },
+    {
+      "name": "faixa_tanque_2",
+      "from": [
+        2.245,
+        12.1,
+        -6.25
+      ],
+      "to": [
+        2.375,
+        12.7,
+        -0.95
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        7,
+        0,
+        0
+      ],
+      "origin": [
+        2.31,
+        12.4,
+        -3.6
+      ]
+    },
+    {
+      "name": "tampa_combustivel_1",
+      "from": [
+        -0.6,
+        13.99,
+        -5.4
+      ],
+      "to": [
+        0.6,
+        14.31,
+        -4.2
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "selim_base_1",
+      "from": [
+        -2.25,
+        10.9,
+        1.45
+      ],
+      "to": [
+        2.25,
+        11.3,
+        11.15
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "selim_espuma_1",
+      "from": [
+        -2.425,
+        11.25,
+        1.45
+      ],
+      "to": [
+        2.425,
+        12.25,
+        11.15
+      ],
+      "material": "banco",
+      "group": "chassis"
+    },
+    {
+      "name": "selim_frente_1",
+      "from": [
+        -1.85,
+        11.1,
+        0.8
+      ],
+      "to": [
+        1.85,
+        11.9,
+        2.0
+      ],
+      "material": "banco",
+      "group": "chassis"
+    },
+    {
+      "name": "costura_banco_1",
+      "from": [
+        -2.35,
+        12.255,
+        3.15
+      ],
+      "to": [
+        2.35,
+        12.305,
+        3.25
+      ],
+      "material": "creme",
+      "group": "chassis"
+    },
+    {
+      "name": "costura_banco_2",
+      "from": [
+        -2.35,
+        12.255,
+        5.95
+      ],
+      "to": [
+        2.35,
+        12.305,
+        6.05
+      ],
+      "material": "creme",
+      "group": "chassis"
+    },
+    {
+      "name": "costura_banco_3",
+      "from": [
+        -2.35,
+        12.255,
+        8.75
+      ],
+      "to": [
+        2.35,
+        12.305,
+        8.85
+      ],
+      "material": "creme",
+      "group": "chassis"
+    },
+    {
+      "name": "paralama_frente_1",
+      "from": [
+        -1.25,
+        9.1431,
+        -16.0826
+      ],
+      "to": [
+        1.25,
+        9.4231,
+        -15.1326
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        -40.107,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.283116248793135,
+        -15.60761904853107
+      ]
+    },
+    {
+      "name": "paralama_frente_2",
+      "from": [
+        -1.25,
+        9.6046,
+        -15.4496
+      ],
+      "to": [
+        1.25,
+        9.8846,
+        -14.4996
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        -32.086,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.74462862167513,
+        -14.974642708356946
+      ]
+    },
+    {
+      "name": "paralama_frente_3",
+      "from": [
+        -1.25,
+        9.9733,
+        -14.7585
+      ],
+      "to": [
+        1.25,
+        10.2533,
+        -13.8085
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        -24.064,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.113298065748925,
+        -14.283458537133594
+      ]
+    },
+    {
+      "name": "paralama_frente_4",
+      "from": [
+        -1.25,
+        10.2419,
+        -14.0226
+      ],
+      "to": [
+        1.25,
+        10.5219,
+        -13.0726
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        -16.043,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.381910454540318,
+        -13.547591631959037
+      ]
+    },
+    {
+      "name": "paralama_frente_5",
+      "from": [
+        -1.25,
+        10.4052,
+        -13.2564
+      ],
+      "to": [
+        1.25,
+        10.6852,
+        -12.3064
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        -8.021,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.545209578790768,
+        -12.781441442007724
+      ]
+    },
+    {
+      "name": "paralama_frente_6",
+      "from": [
+        -1.25,
+        10.46,
+        -12.475
+      ],
+      "to": [
+        1.25,
+        10.74,
+        -11.525
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.6,
+        -12.0
+      ]
+    },
+    {
+      "name": "paralama_frente_7",
+      "from": [
+        -1.25,
+        10.4052,
+        -11.6936
+      ],
+      "to": [
+        1.25,
+        10.6852,
+        -10.7436
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        8.021,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.545209578790768,
+        -11.218558557992276
+      ]
+    },
+    {
+      "name": "paralama_frente_8",
+      "from": [
+        -1.25,
+        10.2419,
+        -10.9274
+      ],
+      "to": [
+        1.25,
+        10.5219,
+        -9.9774
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        16.043,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.381910454540318,
+        -10.452408368040963
+      ]
+    },
+    {
+      "name": "paralama_frente_9",
+      "from": [
+        -1.25,
+        9.9733,
+        -10.1915
+      ],
+      "to": [
+        1.25,
+        10.2533,
+        -9.2415
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        24.064,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.113298065748925,
+        -9.716541462866406
+      ]
+    },
+    {
+      "name": "paralama_frente_10",
+      "from": [
+        -1.25,
+        9.6046,
+        -9.5004
+      ],
+      "to": [
+        1.25,
+        9.8846,
+        -8.5504
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        32.086,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.74462862167513,
+        -9.025357291643054
+      ]
+    },
+    {
+      "name": "paralama_frente_11",
+      "from": [
+        -1.25,
+        9.1431,
+        -8.8674
+      ],
+      "to": [
+        1.25,
+        9.4231,
+        -7.9174
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        40.107,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.283116248793135,
+        -8.39238095146893
+      ]
+    },
+    {
+      "name": "paralama_tras_1",
+      "from": [
+        -1.25,
+        9.1431,
+        7.9174
+      ],
+      "to": [
+        1.25,
+        9.4231,
+        8.8674
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -40.107,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.283116248793135,
+        8.39238095146893
+      ]
+    },
+    {
+      "name": "paralama_tras_2",
+      "from": [
+        -1.25,
+        9.6046,
+        8.5504
+      ],
+      "to": [
+        1.25,
+        9.8846,
+        9.5004
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -32.086,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.74462862167513,
+        9.025357291643054
+      ]
+    },
+    {
+      "name": "paralama_tras_3",
+      "from": [
+        -1.25,
+        9.9733,
+        9.2415
+      ],
+      "to": [
+        1.25,
+        10.2533,
+        10.1915
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -24.064,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.113298065748925,
+        9.716541462866406
+      ]
+    },
+    {
+      "name": "paralama_tras_4",
+      "from": [
+        -1.25,
+        10.2419,
+        9.9774
+      ],
+      "to": [
+        1.25,
+        10.5219,
+        10.9274
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -16.043,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.381910454540318,
+        10.452408368040963
+      ]
+    },
+    {
+      "name": "paralama_tras_5",
+      "from": [
+        -1.25,
+        10.4052,
+        10.7436
+      ],
+      "to": [
+        1.25,
+        10.6852,
+        11.6936
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -8.021,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.545209578790768,
+        11.218558557992276
+      ]
+    },
+    {
+      "name": "paralama_tras_6",
+      "from": [
+        -1.25,
+        10.46,
+        11.525
+      ],
+      "to": [
+        1.25,
+        10.74,
+        12.475
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        0.0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.6,
+        12.0
+      ]
+    },
+    {
+      "name": "paralama_tras_7",
+      "from": [
+        -1.25,
+        10.4052,
+        12.3064
+      ],
+      "to": [
+        1.25,
+        10.6852,
+        13.2564
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        8.021,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.545209578790768,
+        12.781441442007724
+      ]
+    },
+    {
+      "name": "paralama_tras_8",
+      "from": [
+        -1.25,
+        10.2419,
+        13.0726
+      ],
+      "to": [
+        1.25,
+        10.5219,
+        14.0226
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        16.043,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.381910454540318,
+        13.547591631959037
+      ]
+    },
+    {
+      "name": "paralama_tras_9",
+      "from": [
+        -1.25,
+        9.9733,
+        13.8085
+      ],
+      "to": [
+        1.25,
+        10.2533,
+        14.7585
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        24.064,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        10.113298065748925,
+        14.283458537133594
+      ]
+    },
+    {
+      "name": "paralama_tras_10",
+      "from": [
+        -1.25,
+        9.6046,
+        14.4996
+      ],
+      "to": [
+        1.25,
+        9.8846,
+        15.4496
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        32.086,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.74462862167513,
+        14.974642708356946
+      ]
+    },
+    {
+      "name": "paralama_tras_11",
+      "from": [
+        -1.25,
+        9.1431,
+        15.1326
+      ],
+      "to": [
+        1.25,
+        9.4231,
+        16.0826
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        40.107,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        9.283116248793135,
+        15.60761904853107
+      ]
+    },
+    {
+      "name": "rabeta_1",
+      "from": [
+        -1.65,
+        10.0,
+        11.35
+      ],
+      "to": [
+        1.65,
+        11.0,
+        14.65
+      ],
+      "material": "pintura",
+      "group": "chassis"
+    },
+    {
+      "name": "lanterna_suporte_1",
+      "from": [
+        -1.175,
+        9.9,
+        14.7
+      ],
+      "to": [
+        1.175,
+        11.5,
+        15.3
+      ],
+      "material": "painel",
+      "group": "chassis"
+    },
+    {
+      "name": "lanterna_lente_1",
+      "from": [
+        -1.0,
+        10.1,
+        15.25
+      ],
+      "to": [
+        1.0,
+        11.3,
+        15.45
+      ],
+      "material": "vermelho",
+      "group": "chassis"
+    },
+    {
+      "name": "placa_suporte_1",
+      "from": [
+        -1.2,
+        8.15,
+        15.0
+      ],
+      "to": [
+        1.2,
+        9.65,
+        15.2
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        -12,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.9,
+        15.1
+      ]
+    },
+    {
+      "name": "placa_1",
+      "from": [
+        -1.05,
+        8.325,
+        15.19
+      ],
+      "to": [
+        1.05,
+        9.475,
+        15.31
+      ],
+      "material": "creme",
+      "group": "chassis",
+      "rotation": [
+        -12,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        8.9,
+        15.25
+      ]
+    },
+    {
+      "name": "bagageiro_travessa_1",
+      "from": [
+        -2.5,
+        12.875,
+        11.25
+      ],
+      "to": [
+        2.5,
+        13.125,
+        11.55
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "bagageiro_travessa_2",
+      "from": [
+        -2.5,
+        12.875,
+        13.25
+      ],
+      "to": [
+        2.5,
+        13.125,
+        13.55
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "bagageiro_lateral_1",
+      "from": [
+        -2.54,
+        12.86,
+        10.7
+      ],
+      "to": [
+        -2.26,
+        13.14,
+        14.1
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "bagageiro_suporte_1",
+      "from": [
+        -2.4,
+        9.8554,
+        11.55
+      ],
+      "to": [
+        -2.1,
+        13.5446,
+        11.85
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        45.0,
+        0,
+        0
+      ],
+      "origin": [
+        -2.25,
+        11.7,
+        11.7
+      ]
+    },
+    {
+      "name": "bagageiro_lateral_2",
+      "from": [
+        2.26,
+        12.86,
+        10.7
+      ],
+      "to": [
+        2.54,
+        13.14,
+        14.1
+      ],
+      "material": "cromo",
+      "group": "chassis"
+    },
+    {
+      "name": "bagageiro_suporte_2",
+      "from": [
+        2.1,
+        9.8554,
+        11.55
+      ],
+      "to": [
+        2.4,
+        13.5446,
+        11.85
+      ],
+      "material": "aco",
+      "group": "chassis",
+      "rotation": [
+        45.0,
+        0,
+        0
+      ],
+      "origin": [
+        2.25,
+        11.7,
+        11.7
+      ]
+    },
+    {
+      "name": "mesa_direcao_1",
+      "from": [
+        -2.3,
+        13.7,
+        -9.55
+      ],
+      "to": [
+        2.3,
+        14.3,
+        -8.25
+      ],
+      "material": "aco",
+      "group": "direcao"
+    },
+    {
+      "name": "guidom_centro_1",
+      "from": [
+        -3.75,
+        16.575,
+        -8.65
+      ],
+      "to": [
+        3.75,
+        17.025,
+        -8.15
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "punho_1",
+      "from": [
+        -5.5,
+        16.675,
+        -8.225
+      ],
+      "to": [
+        -3.5,
+        17.325,
+        -7.575
+      ],
+      "material": "borracha",
+      "group": "direcao"
+    },
+    {
+      "name": "manete_1",
+      "from": [
+        -5.35,
+        16.91,
+        -9.225
+      ],
+      "to": [
+        -3.65,
+        17.09,
+        -8.975
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "haste_espelho_1",
+      "from": [
+        -3.325,
+        16.9237,
+        -9.025
+      ],
+      "to": [
+        -3.075,
+        20.2763,
+        -8.775
+      ],
+      "material": "cromo",
+      "group": "direcao",
+      "rotation": [
+        -17.354,
+        0,
+        0
+      ],
+      "origin": [
+        -3.2,
+        18.6,
+        -8.9
+      ]
+    },
+    {
+      "name": "espelho_moldura_1",
+      "from": [
+        -4.25,
+        19.775,
+        -9.625
+      ],
+      "to": [
+        -2.15,
+        20.925,
+        -9.275
+      ],
+      "material": "painel",
+      "group": "direcao"
+    },
+    {
+      "name": "espelho_vidro_1",
+      "from": [
+        -4.1,
+        19.925,
+        -9.275
+      ],
+      "to": [
+        -2.3,
+        20.775,
+        -9.185
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_haste_1",
+      "from": [
+        -3.2,
+        13.975,
+        -10.95
+      ],
+      "to": [
+        -1.8,
+        14.225,
+        -10.65
+      ],
+      "material": "aco",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_lente_1",
+      "from": [
+        -3.525,
+        13.75,
+        -11.125
+      ],
+      "to": [
+        -2.875,
+        14.45,
+        -10.475
+      ],
+      "material": "ambar",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_haste_2",
+      "from": [
+        -3.2,
+        10.575,
+        13.85
+      ],
+      "to": [
+        -1.8,
+        10.825,
+        14.15
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "pisca_lente_2",
+      "from": [
+        -3.525,
+        10.35,
+        13.675
+      ],
+      "to": [
+        -2.875,
+        11.05,
+        14.325
+      ],
+      "material": "ambar",
+      "group": "chassis"
+    },
+    {
+      "name": "punho_2",
+      "from": [
+        3.5,
+        16.675,
+        -8.225
+      ],
+      "to": [
+        5.5,
+        17.325,
+        -7.575
+      ],
+      "material": "borracha",
+      "group": "direcao"
+    },
+    {
+      "name": "manete_2",
+      "from": [
+        3.65,
+        16.91,
+        -9.225
+      ],
+      "to": [
+        5.35,
+        17.09,
+        -8.975
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "haste_espelho_2",
+      "from": [
+        3.075,
+        16.9237,
+        -9.025
+      ],
+      "to": [
+        3.325,
+        20.2763,
+        -8.775
+      ],
+      "material": "cromo",
+      "group": "direcao",
+      "rotation": [
+        -17.354,
+        0,
+        0
+      ],
+      "origin": [
+        3.2,
+        18.6,
+        -8.9
+      ]
+    },
+    {
+      "name": "espelho_moldura_2",
+      "from": [
+        2.15,
+        19.775,
+        -9.625
+      ],
+      "to": [
+        4.25,
+        20.925,
+        -9.275
+      ],
+      "material": "painel",
+      "group": "direcao"
+    },
+    {
+      "name": "espelho_vidro_2",
+      "from": [
+        2.3,
+        19.925,
+        -9.275
+      ],
+      "to": [
+        4.1,
+        20.775,
+        -9.185
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_haste_3",
+      "from": [
+        1.8,
+        13.975,
+        -10.95
+      ],
+      "to": [
+        3.2,
+        14.225,
+        -10.65
+      ],
+      "material": "aco",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_lente_3",
+      "from": [
+        2.875,
+        13.75,
+        -11.125
+      ],
+      "to": [
+        3.525,
+        14.45,
+        -10.475
+      ],
+      "material": "ambar",
+      "group": "direcao"
+    },
+    {
+      "name": "pisca_haste_4",
+      "from": [
+        1.8,
+        10.575,
+        13.85
+      ],
+      "to": [
+        3.2,
+        10.825,
+        14.15
+      ],
+      "material": "aco",
+      "group": "chassis"
+    },
+    {
+      "name": "pisca_lente_4",
+      "from": [
+        2.875,
+        10.35,
+        13.675
+      ],
+      "to": [
+        3.525,
+        11.05,
+        14.325
+      ],
+      "material": "ambar",
+      "group": "chassis"
+    },
+    {
+      "name": "farol_caixa_1",
+      "from": [
+        -1.625,
+        13.2,
+        -11.65
+      ],
+      "to": [
+        1.625,
+        16.0,
+        -9.35
+      ],
+      "material": "pintura",
+      "group": "direcao"
+    },
+    {
+      "name": "farol_aro_1",
+      "from": [
+        -1.75,
+        13.1,
+        -11.9
+      ],
+      "to": [
+        1.75,
+        16.1,
+        -11.6
+      ],
+      "material": "cromo",
+      "group": "direcao"
+    },
+    {
+      "name": "farol_lente_1",
+      "from": [
+        -1.45,
+        13.4,
+        -12.01
+      ],
+      "to": [
+        1.45,
+        15.8,
+        -11.89
+      ],
+      "material": "farol",
+      "group": "direcao"
+    },
+    {
+      "name": "farol_friso_1",
+      "from": [
+        -0.7275,
+        13.425,
+        -12.045
+      ],
+      "to": [
+        -0.6725,
+        15.775,
+        -12.015
+      ],
+      "material": "creme",
+      "group": "direcao"
+    },
+    {
+      "name": "farol_friso_2",
+      "from": [
+        -0.0275,
+        13.425,
+        -12.045
+      ],
+      "to": [
+        0.0275,
+        15.775,
+        -12.015
+      ],
+      "material": "creme",
+      "group": "direcao"
+    },
+    {
+      "name": "farol_friso_3",
+      "from": [
+        0.6725,
+        13.425,
+        -12.045
+      ],
+      "to": [
+        0.7275,
+        15.775,
+        -12.015
+      ],
+      "material": "creme",
+      "group": "direcao"
+    },
+    {
+      "name": "painel_caixa_1",
+      "from": [
+        -1.3,
+        15.5,
+        -9.3
+      ],
+      "to": [
+        1.3,
+        16.7,
+        -7.7
+      ],
+      "material": "painel",
+      "group": "direcao",
+      "rotation": [
+        20,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        16.1,
+        -8.5
+      ]
+    },
+    {
+      "name": "velocimetro_1",
+      "from": [
+        -0.95,
+        16.67,
+        -8.8
+      ],
+      "to": [
+        0.95,
+        16.77,
+        -7.7
+      ],
+      "material": "creme",
+      "group": "direcao",
+      "rotation": [
+        20,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        16.72,
+        -8.25
+      ]
+    },
+    {
+      "name": "ponteiro_1",
+      "from": [
+        -0.04,
+        16.775,
+        -8.525
+      ],
+      "to": [
+        0.04,
+        16.845,
+        -7.875
+      ],
+      "material": "vermelho",
+      "group": "direcao",
+      "rotation": [
+        20,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        16.81,
+        -8.2
+      ]
+    },
+    {
+      "name": "cavalete_perna_1",
+      "from": [
+        -1.725,
+        0.1669,
+        6.475
+      ],
+      "to": [
+        -1.375,
+        6.0831,
+        6.825
+      ],
+      "material": "aco",
+      "group": "cavalete",
+      "rotation": [
+        167.26,
+        0,
+        0
+      ],
+      "origin": [
+        -1.55,
+        3.125,
+        6.65
+      ]
+    },
+    {
+      "name": "cavalete_pe_1",
+      "from": [
+        -2.25,
+        0.005,
+        6.85
+      ],
+      "to": [
+        -1.35,
+        0.355,
+        7.75
+      ],
+      "material": "aco",
+      "group": "cavalete"
+    },
+    {
+      "name": "cavalete_perna_2",
+      "from": [
+        1.375,
+        0.1669,
+        6.475
+      ],
+      "to": [
+        1.725,
+        6.0831,
+        6.825
+      ],
+      "material": "aco",
+      "group": "cavalete",
+      "rotation": [
+        167.26,
+        0,
+        0
+      ],
+      "origin": [
+        1.55,
+        3.125,
+        6.65
+      ]
+    },
+    {
+      "name": "cavalete_pe_2",
+      "from": [
+        1.35,
+        0.005,
+        6.85
+      ],
+      "to": [
+        2.25,
+        0.355,
+        7.75
+      ],
+      "material": "aco",
+      "group": "cavalete"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "bebida": "rum",
+  "input": "intoxicantes:rum_jovem",
+  "qtdIn": 2,
+  "tempoFermentacaoSeg": 0,
+  "tempoMaturacaoSeg": 600,
+  "bebidaFinal": "intoxicantes:rum",
+  "garrafas": 4
+}

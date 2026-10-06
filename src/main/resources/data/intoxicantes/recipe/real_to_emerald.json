@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1",
+    "intoxicantes:moeda_1"
+  ],
+  "result": {
+    "id": "minecraft:emerald_block",
+    "count": 1
+  }
+}

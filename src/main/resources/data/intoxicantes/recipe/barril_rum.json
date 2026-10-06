@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "APA",
+    "PSP",
+    "APA"
+  ],
+  "key": {
+    "A": "minecraft:coal_block",
+    "P": "minecraft:stripped_dark_oak_log",
+    "S": "intoxicantes:rum_jovem"
+  },
+  "result": {
+    "id": "intoxicantes:barril_rum",
+    "count": 1
+  }
+}

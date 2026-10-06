@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.intoxicantes.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "CameraFovMixin",
+    "CameraViagemMixin",
+    "MouseBotaoMixin",
+    "IronSightPoseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

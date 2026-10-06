@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "intoxicantes:caldo_de_cana",
+  "result": {
+    "id": "intoxicantes:melaco"
+  },
+  "experience": 0.15,
+  "cookingtime": 100
+}

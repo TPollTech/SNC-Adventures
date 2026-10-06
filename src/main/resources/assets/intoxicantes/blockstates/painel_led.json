@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,telas=1,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,telas=1,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,telas=2,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,telas=2,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,telas=3,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=north,telas=3,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 0,
+      "uvlock": false
+    },
+    "facing=east,telas=1,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,telas=1,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,telas=2,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,telas=2,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,telas=3,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=east,telas=3,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south,telas=1,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,telas=1,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,telas=2,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,telas=2,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,telas=3,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=south,telas=3,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west,telas=1,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,telas=1,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,telas=2,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,telas=2,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,telas=3,lit=true": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    },
+    "facing=west,telas=3,lit=false": {
+      "model": "intoxicantes:block/painel_led",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

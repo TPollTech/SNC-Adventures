@@ -1,0 +1,24 @@
+{
+  "parent": "intoxicantes:esquinao/raiz",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.intoxicantes.colheita_perfeita.description"
+    },
+    "icon": {
+      "id": "intoxicantes:maconha_seda"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.colheita_perfeita.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

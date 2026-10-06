@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:semente_cevada",
+    "intoxicantes:semente_cevada",
+    "intoxicantes:semente_cevada",
+    "intoxicantes:semente_cevada"
+  ],
+  "result": {
+    "id": "intoxicantes:cevada",
+    "count": 1
+  }
+}

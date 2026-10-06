@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "intoxicantes:block/maconha_stage4_ripe"
+  }
+}

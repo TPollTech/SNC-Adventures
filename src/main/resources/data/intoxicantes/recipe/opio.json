@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "P",
+    "P"
+  ],
+  "key": {
+    "P": "minecraft:poppy"
+  },
+  "result": {
+    "id": "intoxicantes:opio",
+    "count": 1
+  }
+}

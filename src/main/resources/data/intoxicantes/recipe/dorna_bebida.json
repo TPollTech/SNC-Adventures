@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "P P",
+    "PWP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:stripped_spruce_log",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "intoxicantes:dorna_bebida",
+    "count": 1
+  }
+}

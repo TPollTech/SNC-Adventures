@@ -1,0 +1,28 @@
+{
+  "artifact": "build\\libs\\snc-adventures-1.2.81.jar",
+  "version": "1.2.81",
+  "bytes": 43216193,
+  "sha256": "77e41cea3ea250621b51b57342e903077c16e1b0da8f6f718776be3ab6446ce4",
+  "java": 25,
+  "minecraft": "26.3",
+  "installed": false,
+  "electrical_tests_with_energies": {
+    "passed": 38,
+    "total": 38
+  },
+  "electrical_tests_standalone": {
+    "passed": 38,
+    "total": 38
+  },
+  "guide_tests": {
+    "passed": 7,
+    "total": 7
+  },
+  "client": "passed",
+  "full_suite": {
+    "passed": 186,
+    "total": 189,
+    "failed": 3
+  },
+  "notes": "Full suite fails on independent economy tests; personal saves and installed mods unchanged."
+}

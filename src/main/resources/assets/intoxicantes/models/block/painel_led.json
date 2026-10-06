@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "tela": "intoxicantes:block/placa_esquinao_tela",
+    "moldura": "intoxicantes:block/placa_esquinao_back",
+    "particle": "intoxicantes:block/placa_esquinao_back"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#tela"
+        },
+        "south": {
+          "texture": "#moldura"
+        },
+        "up": {
+          "texture": "#moldura"
+        },
+        "down": {
+          "texture": "#moldura"
+        },
+        "west": {
+          "texture": "#moldura"
+        },
+        "east": {
+          "texture": "#moldura"
+        }
+      }
+    }
+  ]
+}

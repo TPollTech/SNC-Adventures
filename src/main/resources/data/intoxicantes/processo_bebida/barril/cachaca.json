@@ -1,0 +1,9 @@
+{
+  "bebida": "cachaca",
+  "input": "intoxicantes:cachaca_jovem",
+  "qtdIn": 2,
+  "tempoFermentacaoSeg": 0,
+  "tempoMaturacaoSeg": 600,
+  "bebidaFinal": "intoxicantes:cachaca",
+  "garrafas": 4
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "intoxicantes:esquinao/fregues_da_esquina",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.intoxicantes.dono_da_esquina.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "intoxicantes:escopeta"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.dono_da_esquina.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "intoxicantes:block/coqueiro_tronco" },
+    "axis=z": { "model": "intoxicantes:block/coqueiro_tronco_horizontal", "x": 90 },
+    "axis=x": { "model": "intoxicantes:block/coqueiro_tronco_horizontal", "x": 90, "y": 90 }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:fern",
+    "minecraft:fern"
+  ],
+  "result": { "id": "intoxicantes:maconha_seda", "count": 2 }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "intoxicantes:block/lupulo_stage4_dormant"
+  }
+}

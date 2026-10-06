@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "intoxicantes:block/lampada_uv"
+    },
+    "lit=false": {
+      "model": "intoxicantes:block/lampada_uv_off"
+    }
+  }
+}

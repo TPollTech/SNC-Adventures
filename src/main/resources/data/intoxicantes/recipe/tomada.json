@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "C",
+    "N"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "intoxicantes:tomada",
+    "count": 2
+  }
+}

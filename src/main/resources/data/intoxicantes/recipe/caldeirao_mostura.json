@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "I I",
+    "WWW"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "W": "minecraft:smooth_stone_slab"
+  },
+  "result": {
+    "id": "intoxicantes:caldeirao_mostura",
+    "count": 1
+  }
+}

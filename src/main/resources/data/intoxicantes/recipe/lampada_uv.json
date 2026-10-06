@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IWI",
+    "GGG",
+    "GDG"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "W": "minecraft:white_stained_glass",
+    "G": "minecraft:glass",
+    "D": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "id": "intoxicantes:lampada_uv",
+    "count": 1
+  }
+}

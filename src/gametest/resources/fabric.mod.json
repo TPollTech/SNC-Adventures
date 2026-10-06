@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "intoxicantes-commerce-tests",
+  "version": "1.0.0",
+  "name": "Intoxicantes commerce tests",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.intoxicantes.TestesBebidaBoot"],
+    "fabric-gametest": ["com.intoxicantes.CommerceGameTest", "com.intoxicantes.JogoDoBichoGameTest", "com.intoxicantes.GuiaGameTest", "com.intoxicantes.MarketOverhaulGameTest", "com.intoxicantes.SaudeGameTest", "com.intoxicantes.CatalogoGameTest", "com.intoxicantes.GuiMaquinasGameTest", "com.intoxicantes.BebidasDecorativasGameTest", "com.intoxicantes.BebidasVaziasGameTest", "com.intoxicantes.ParreiraGameTest", "com.intoxicantes.PrateleiraGameTest", "com.intoxicantes.LedPotenciaGameTest", "com.intoxicantes.EletricidadeGameTest"],
+    "fabric-client-gametest": ["com.intoxicantes.ArmasClientTest", "com.intoxicantes.ParreiraClientTest", "com.intoxicantes.CommerceClientTest", "com.intoxicantes.BebidasClientTest", "com.intoxicantes.SementesClientTest", "com.intoxicantes.GuiMaquinasClientTest", "com.intoxicantes.IdentidadeClientTest", "com.intoxicantes.CoqueiroTooltipClientTest", "com.intoxicantes.CarrinhoClientTest", "com.intoxicantes.MercadoClientTest", "com.intoxicantes.EletricidadeClientTest"]
+  }
+}

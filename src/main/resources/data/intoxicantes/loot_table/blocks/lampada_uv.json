@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:lampada_uv"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "intoxicantes:blocks/lampada_uv"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:poste_luz"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "intoxicantes:blocks/poste_luz"
+}

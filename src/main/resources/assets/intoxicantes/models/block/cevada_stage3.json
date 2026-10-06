@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cross",
+ "textures": {
+  "cross": "intoxicantes:block/cevada_stage3"
+ }
+}

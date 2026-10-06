@@ -1,0 +1,103 @@
+{
+ "type": "minecraft:block",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "intoxicantes:semente_cevada"
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "condition": {
+    "type": "minecraft:match_block",
+    "blocks": "intoxicantes:cevada_plant",
+    "state": {
+     "age": "4"
+    }
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "intoxicantes:cevada",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "condition": {
+    "type": "minecraft:match_block",
+    "blocks": "intoxicantes:cevada_plant",
+    "state": {
+     "age": "5"
+    }
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "intoxicantes:cevada",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "condition": {
+    "type": "minecraft:match_block",
+    "blocks": "intoxicantes:cevada_plant",
+    "state": {
+     "age": "6"
+    }
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "intoxicantes:cevada",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "condition": {
+    "type": "minecraft:match_block",
+    "blocks": "intoxicantes:cevada_plant",
+    "state": {
+     "age": "7"
+    }
+   },
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "intoxicantes:cevada",
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": 4
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "random_sequence": "intoxicantes:blocks/cevada_plant"
+}

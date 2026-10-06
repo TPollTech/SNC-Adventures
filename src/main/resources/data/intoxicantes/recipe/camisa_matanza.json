@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W W",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:black_wool"
+  },
+  "result": {
+    "id": "intoxicantes:camisa_matanza",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:lapis_lazuli",
+    "minecraft:sugar"
+  ],
+  "result": { "id": "intoxicantes:po_estelar", "count": 2 }
+}

@@ -1,0 +1,9 @@
+{
+  "input": "intoxicantes:cana_de_acucar",
+  "qtdIn": 4,
+  "output": "intoxicantes:caldo_de_cana",
+  "qtdOut": 4,
+  "extraOut": "intoxicantes:bagaco_de_cana",
+  "extraQtd": 1,
+  "tempoSeg": 40
+}

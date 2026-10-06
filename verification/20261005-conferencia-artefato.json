@@ -1,0 +1,12 @@
+{
+  "version": "1.2.79",
+  "name": "SNC Adventures Mod",
+  "jar": "C:\\Users\\enzop\\curseforge\\minecraft\\Instances\\mod cet\\intoxicantes-mod\\build\\libs\\intoxicantes-1.2.79.jar",
+  "sha256": "886909da1c0a409ee566002ad774aeec9252acc9de34a33264c70f35107dda93",
+  "build": "passed",
+  "server_tests": "171",
+  "compiled_classes_match": true,
+  "production_sources_newer_than_jar": 0,
+  "installed_matches_build": false,
+  "client_test_repeated": false
+}

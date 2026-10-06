@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "metade=lower": {
+   "model": "intoxicantes:block/caldeirao_mostura_baixo"
+  },
+  "metade=upper": {
+   "model": "intoxicantes:block/caldeirao_mostura_alto"
+  }
+ }
+}

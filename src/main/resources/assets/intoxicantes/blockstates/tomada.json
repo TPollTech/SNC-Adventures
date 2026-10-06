@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "intoxicantes:block/tomada"
+    },
+    "facing=north,lit=true": {
+      "model": "intoxicantes:block/tomada_energizada"
+    },
+    "facing=south,lit=false": {
+      "model": "intoxicantes:block/tomada",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "intoxicantes:block/tomada_energizada",
+      "y": 180
+    },
+    "facing=east,lit=false": {
+      "model": "intoxicantes:block/tomada",
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "intoxicantes:block/tomada_energizada",
+      "y": 270
+    },
+    "facing=west,lit=false": {
+      "model": "intoxicantes:block/tomada",
+      "y": 90
+    },
+    "facing=west,lit=true": {
+      "model": "intoxicantes:block/tomada_energizada",
+      "y": 90
+    }
+  }
+}

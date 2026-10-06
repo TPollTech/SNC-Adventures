@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:lapis_lazuli",
+    "minecraft:redstone"
+  ],
+  "result": { "id": "intoxicantes:lsd", "count": 2 }
+}

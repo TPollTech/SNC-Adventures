@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "intoxicantes:coco",
+    "minecraft:potion"
+  ],
+  "result": {
+    "id": "intoxicantes:agua_de_coco",
+    "count": 1
+  }
+}

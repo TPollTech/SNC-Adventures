@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "parte=base,lit=true": {
+      "model": "intoxicantes:block/poste_luz_base"
+    },
+    "parte=base,lit=false": {
+      "model": "intoxicantes:block/poste_luz_base"
+    },
+    "parte=corpo,lit=true": {
+      "model": "intoxicantes:block/poste_luz_corpo"
+    },
+    "parte=corpo,lit=false": {
+      "model": "intoxicantes:block/poste_luz_corpo"
+    },
+    "parte=topo,lit=true": {
+      "model": "intoxicantes:block/poste_luz_topo_lit"
+    },
+    "parte=topo,lit=false": {
+      "model": "intoxicantes:block/poste_luz_topo_off"
+    }
+  }
+}

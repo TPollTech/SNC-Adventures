@@ -1,0 +1,6 @@
+{
+  "input": "intoxicantes:mosto_cana_fermentado",
+  "qtdIn": 4,
+  "output": "intoxicantes:cachaca_jovem",
+  "qtdOut": 2
+}

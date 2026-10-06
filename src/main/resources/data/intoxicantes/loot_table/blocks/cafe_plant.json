@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:block",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  },
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:semente_cafe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "intoxicantes:cafe_plant",
+        "state": {
+          "age": "4"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:cafe_verde"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "intoxicantes:cafe_plant",
+        "state": {
+          "age": "4",
+          "uv_age": "3"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:cafe_verde",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 2
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "intoxicantes:cafe_plant",
+        "state": {
+          "age": "4",
+          "uv_age": "3"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "intoxicantes:semente_cafe"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "intoxicantes:blocks/cafe_plant"
+}

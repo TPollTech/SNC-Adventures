@@ -1,0 +1,6 @@
+{
+  "input": "intoxicantes:caldo_de_cana",
+  "qtdIn": 4,
+  "output": "intoxicantes:mosto_cana_fermentado",
+  "qtdOut": 4
+}

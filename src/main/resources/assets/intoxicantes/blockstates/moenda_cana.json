@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "metade=lower": {
+   "model": "intoxicantes:block/moenda_cana_baixo"
+  },
+  "metade=upper": {
+   "model": "intoxicantes:block/moenda_cana_alto"
+  }
+ }
+}

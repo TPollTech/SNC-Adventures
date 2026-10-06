@@ -1,0 +1,24 @@
+{
+  "parent": "intoxicantes:esquinao/raiz",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.intoxicantes.primeira_compra.description"
+    },
+    "icon": {
+      "id": "intoxicantes:real"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.primeira_compra.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

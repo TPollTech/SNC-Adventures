@@ -1,0 +1,34 @@
+{
+  "parent": "intoxicantes:esquinao/raiz",
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "intoxicantes:traficante"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.intoxicantes.dono_da_doze.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "intoxicantes:cartucho"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.dono_da_doze.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ]
+  ]
+}

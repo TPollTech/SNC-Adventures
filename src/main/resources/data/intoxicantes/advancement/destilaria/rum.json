@@ -1,0 +1,29 @@
+{
+  "parent": "intoxicantes:destilaria",
+  "display": {
+    "icon": {
+      "id": "intoxicantes:melaco"
+    },
+    "title": {
+      "translate": "advancements.intoxicantes.rum.title"
+    },
+    "description": {
+      "translate": "advancements.intoxicantes.rum.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tem_ingrediente": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "intoxicantes:melaco"
+          }
+        ]
+      }
+    }
+  }
+}

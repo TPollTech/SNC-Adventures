@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "intoxicantes:block/soquete_teto"
+    },
+    "lit=true": {
+      "model": "intoxicantes:block/soquete_teto"
+    }
+  }
+}

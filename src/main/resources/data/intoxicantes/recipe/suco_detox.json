@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:apple",
+    "minecraft:melon_slice"
+  ],
+  "result": {
+    "id": "intoxicantes:suco_detox",
+    "count": 2
+  }
+}

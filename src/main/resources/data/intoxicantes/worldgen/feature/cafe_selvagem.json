@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "id": "intoxicantes:cafe_plant",
+    "properties": {
+      "age": "4",
+      "uv_age": "0"
+    }
+  }
+}

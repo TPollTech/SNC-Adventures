@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "intoxicantes",
+  "pattern": [
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "S": "minecraft:smooth_stone_slab"
+  },
+  "result": {
+    "id": "intoxicantes:soquete_teto",
+    "count": 2
+  }
+}

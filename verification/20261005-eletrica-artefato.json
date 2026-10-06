@@ -1,0 +1,11 @@
+{
+  "version": "1.2.79",
+  "sha256": "62d1708cc6ba4a3bc91b5b60cc38cf471555b8745314a55e4ee13586b58f0073",
+  "installed": "../mods/intoxicantes-1.2.79.jar",
+  "previous_backup": "backups\\20261005-eletrica-instalacao\\intoxicantes-1.2.78.jar",
+  "previous_sha256": "7710a59392804545f79086b1f117b9f8b03a43daaf570faf0edc1199e33579be",
+  "build": "passed",
+  "server_tests_with_energies": 171,
+  "server_tests_standalone": 171,
+  "client_test": "EletricidadeClientTest passed"
+}

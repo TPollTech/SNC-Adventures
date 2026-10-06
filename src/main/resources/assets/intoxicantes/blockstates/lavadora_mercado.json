@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "intoxicantes:block/lavadora_mercado"
+    },
+    "facing=east": {
+      "model": "intoxicantes:block/lavadora_mercado",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "intoxicantes:block/lavadora_mercado",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "intoxicantes:block/lavadora_mercado",
+      "y": 270
+    }
+  }
+}

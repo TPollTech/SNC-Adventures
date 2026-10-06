@@ -1,0 +1,7 @@
+{
+  "input": "intoxicantes:uva",
+  "qtdIn": 6,
+  "output": "intoxicantes:mosto_de_uva",
+  "qtdOut": 4,
+  "tempoSeg": 40
+}
